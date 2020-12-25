@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{397C7CD5-97FD-218A-D2CA-39F28D601B2D}|">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assets/Scenes/MainScene.cs" Line="31" Column="46" />
+      <File FileName="Assets/Scenes/MomentScene.cs" Line="13" Column="15" />
+      <File FileName="Assets/Scenes/LoginScene.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TapSdKUnityDemo" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="IOS" expanded="True" />
+              </Node>
+              <Node name="Scenes" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a8ab86a7-f236-4e64-afc0-65dd97d21f11" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/taptap-david/Desktop/TapSdKUnityDemo/Assets/Scenes/MomentScene.cs" relfile="Assets/Scenes/MomentScene.cs" line="11" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
