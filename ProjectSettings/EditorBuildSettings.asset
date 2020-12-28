@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MomentScene.unity
     guid: ee9834c9d3fe147ac80fe1b9bd133cbd
+  - enabled: 1
+    path: Assets/Scenes/TapDBScene.unity
+    guid: 6e940ae6409e947f0be7127741052dd3
   m_configObjects: {}

@@ -35,5 +35,6 @@
 		<type fullname="LoginScene" preserve="nothing"/>
 		<type fullname="MainScene" preserve="nothing"/>
 		<type fullname="MomentScene" preserve="nothing"/>
+		<type fullname="TapDBScene" preserve="nothing"/>
 	</assembly>
 </linker>

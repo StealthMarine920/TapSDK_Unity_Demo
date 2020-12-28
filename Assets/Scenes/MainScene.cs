@@ -80,6 +80,11 @@ public class MainScene : MonoBehaviour, LoginCallback
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(2);
         }
 
+        if (GUI.Button(new Rect(60, 340, 160, 80), "TapDB", style))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(3);
+        }
+
     }
 
 }

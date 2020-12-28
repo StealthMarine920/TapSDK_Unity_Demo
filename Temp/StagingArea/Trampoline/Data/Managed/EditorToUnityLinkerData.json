@@ -23,7 +23,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -67,7 +68,8 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/SampleScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -104,7 +106,8 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/SampleScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -122,7 +125,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -140,7 +144,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -151,7 +156,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -162,7 +168,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -194,7 +201,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -226,7 +234,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -237,7 +246,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -248,7 +258,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -259,7 +270,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -270,7 +282,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -281,7 +294,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -292,7 +306,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -303,7 +318,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -314,7 +330,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -325,7 +342,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -336,7 +354,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -347,7 +366,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -358,7 +378,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -369,7 +390,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -380,7 +402,8 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/LoginScene.unity",
-                "Assets/Scenes/MomentScene.unity"
+                "Assets/Scenes/MomentScene.unity",
+                "Assets/Scenes/TapDBScene.unity"
             ]
         },
         {
@@ -410,6 +433,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "MomentScene",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TapDBScene",
             "moduleName": "",
             "usedInScenes": []
         }
