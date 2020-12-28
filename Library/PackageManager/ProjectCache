@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637444004140000000
-    m_Hash: 2665440625
+      ticks: 637445894600000000
+    m_Hash: 1024343828
   m_LockFileStatus:
     m_FilePath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637444004550000000
-    m_Hash: 4195329906
+      ticks: 637445894670000000
+    m_Hash: 954195735
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.tds.sdk@https://github.com/xindong/TAPSDK_UPM.git#1.0.0
+    - packageId: com.tds.sdk@file:/Users/taptap-david/Desktop/TapSdKUnityDemo/TDS
       testable: 0
       isDirectDependency: 1
       version: 0.0.6-alpha
-      source: 5
-      resolvedPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Library/PackageCache/com.tds.sdk@b561cdd5c3
+      source: 4
+      resolvedPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/TDS
       assetPath: Packages/com.tds.sdk
       name: com.tds.sdk
       displayName: TDSSDK
@@ -45,6 +45,103 @@ m_PackageAssets:
       dependencies: []
       resolvedDependencies: []
       keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unitynative.toasts@https://github.com/NicholasSheehan/Unity-Native-Toasts.git
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.4
+      source: 5
+      resolvedPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Library/PackageCache/com.unitynative.toasts@0d4c988313
+      assetPath: Packages/com.unitynative.toasts
+      name: com.unitynative.toasts
+      displayName: Unity-Native-Toasts
+      author:
+        name: Nicholas Sheehan
+        email: 
+        url: https://github.com/NicholasSheehan/Unity-Native-Toasts
+      category: 
+      type: 
+      description: A Unity plugin to display toasts on iOS and Android
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - Plugin
+      - Native
+      - Android
+      - iOS
+      - Toasts
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.ms.nativedialog@https://github.com/wlgys8/UnityNativeDialog.git
+      testable: 0
+      isDirectDependency: 1
+      version: 0.0.2
+      source: 5
+      resolvedPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Library/PackageCache/com.ms.nativedialog@70c57b227f
+      assetPath: Packages/com.ms.nativedialog
+      name: com.ms.nativedialog
+      displayName: Native Dialog
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Native Dialog for Unity. Support Android&iOS
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - dialog
+      - native
       registry:
         id: 
         name: 
@@ -2500,6 +2597,20 @@ m_PackageAssets:
         revision: 1b3e542964a65210e966f5bf8751f62b1dcd8d69
         path: 
   m_LocalPackages:
-    m_LocalFileStatus: []
+    m_LocalFileStatus:
+    - m_FilePath: /Users/taptap-david/Desktop/TapSdKUnityDemo/TDS/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637444004540000000
+      m_Hash: 2875253777
+    - m_FilePath: /Users/taptap-david/Desktop/TapSdKUnityDemo/TDS
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
 m_ProjectPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Packages
 m_EditorVersion: 2020.1.17f1c1 (8133cd15099c)
