@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{397C7CD5-97FD-218A-D2CA-39F28D601B2D}</ProjectGuid>
+    <ProjectGuid>{5394B4F0-66A2-2CEE-8A10-D2A253291975}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scenes/MainScene.cs" />
     <Compile Include="Assets/Scenes/LoginScene.cs" />
     <Compile Include="Assets/Scenes/MomentScene.cs" />
+    <Compile Include="Assets/Scenes/TapDBScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

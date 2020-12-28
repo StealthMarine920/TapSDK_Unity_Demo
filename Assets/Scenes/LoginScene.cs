@@ -61,7 +61,21 @@ public class LoginScene : MonoBehaviour
             });
         }
 
-        if (GUI.Button(new Rect(60, 308, 160, 80), "返回", style))
+        if (GUI.Button(new Rect(60, 308, 160, 80), "获取用户信息", style))
+        {
+            TDSLogin.GetCurrentProfile((accessToken) => {
+                if (accessToken == null)
+                {
+                    UnityNativeToastsHelper.ShowShortText("当前没有登录");
+                }
+                else {
+                    string str = accessToken.ToJSON();
+                    UnityNativeToastsHelper.ShowShortText(str);
+                }
+            });
+        }
+
+        if (GUI.Button(new Rect(60, 418, 160, 80), "返回", style))
         {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
         }
