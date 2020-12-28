@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TapSDK;
-using UnityNative.Toasts;
+using UnityNative.Toasts.Example;
 
 public class LoginScene : MonoBehaviour
 {
@@ -17,8 +17,6 @@ public class LoginScene : MonoBehaviour
     {
 
     }
-
-    private IosUnityNativeToastsAdapter adapter = new IosUnityNativeToastsAdapter();
 
     private void OnGUI()
     {
@@ -42,9 +40,8 @@ public class LoginScene : MonoBehaviour
                 }
                 else
                 {
-                    adapter.ShowShortToast("已经登录");
+                    UnityNativeToastsHelper.ShowShortText("已经登录");
                 }
-                TDSCommon.BridgeIOS.GetInstance().removeKey("GetCurrentAccessToken");
             });
         }
 
@@ -54,14 +51,13 @@ public class LoginScene : MonoBehaviour
             {                
                 if (accessToken == null)
                 {
-                    adapter.ShowShortToast("当前没有登录");
+                    UnityNativeToastsHelper.ShowShortText("当前没有登录");
                 }
                 else
                 {
-                    adapter.ShowShortToast("退出登录");
+                    UnityNativeToastsHelper.ShowShortText("退出登录");
                     TDSLogin.Logout();
                 }
-                TDSCommon.BridgeIOS.GetInstance().removeKey("GetCurrentAccessToken");
             });
         }
 

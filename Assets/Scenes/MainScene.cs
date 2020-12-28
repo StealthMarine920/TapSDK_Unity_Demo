@@ -12,7 +12,7 @@ public class MainScene : MonoBehaviour, LoginCallback
     void Start()
     {
         //初始化
-        TDSLogin.Init("FwFdCIr6u71WQDQwQN");
+        TDSLogin.Init("0RiAlMny7jiz086FaU");
 
         //注册回调
         TDSLogin.RegisterLoginCallback(this);

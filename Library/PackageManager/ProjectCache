@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637445894600000000
-    m_Hash: 1024343828
+      ticks: 637447391840000000
+    m_Hash: 1261273437
   m_LockFileStatus:
     m_FilePath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637447185540000000
-    m_Hash: 954195735
+      ticks: 637447391860000000
+    m_Hash: 1754042438
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.tds.sdk@file:/Users/taptap-david/Desktop/TapSdKUnityDemo/TDS
+    - packageId: com.tds.sdk@https://github.com/xindong/TAPSDK_UPM.git#0.0.9
       testable: 0
       isDirectDependency: 1
       version: 0.0.6-alpha
-      source: 4
-      resolvedPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/TDS
+      source: 5
+      resolvedPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Library/PackageCache/com.tds.sdk@6eefcf4617
       assetPath: Packages/com.tds.sdk
       name: com.tds.sdk
       displayName: TDSSDK
@@ -2597,20 +2597,6 @@ m_PackageAssets:
         revision: 1b3e542964a65210e966f5bf8751f62b1dcd8d69
         path: 
   m_LocalPackages:
-    m_LocalFileStatus:
-    - m_FilePath: /Users/taptap-david/Desktop/TapSdKUnityDemo/TDS/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637444004540000000
-      m_Hash: 2875253777
-    - m_FilePath: /Users/taptap-david/Desktop/TapSdKUnityDemo/TDS
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
+    m_LocalFileStatus: []
 m_ProjectPath: /Users/taptap-david/Desktop/TapSdKUnityDemo/Packages
 m_EditorVersion: 2020.1.17f1c1 (8133cd15099c)

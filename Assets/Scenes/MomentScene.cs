@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TapSDK;
-using UnityNative.Toasts;
+using UnityNative.Toasts.Example;
 
 public class MomentScene : MonoBehaviour
 {
@@ -16,9 +16,9 @@ public class MomentScene : MonoBehaviour
             Debug.Log("moment 回调" + msg + "----");
             if (code == 20100)
             {
-                adapter.ShowShortToast("token 不能为空");
+                UnityNativeToastsHelper.ShowShortText("token 不能为空");
             } else if (code == 20000) {
-                adapter.ShowShortToast("获取新消息成功");
+                UnityNativeToastsHelper.ShowShortText("获取新消息成功");
             } 
         });
     }
@@ -28,7 +28,6 @@ public class MomentScene : MonoBehaviour
     {
         
     }
-    private IosUnityNativeToastsAdapter adapter = new IosUnityNativeToastsAdapter();
 
     private void OnGUI()
     {
