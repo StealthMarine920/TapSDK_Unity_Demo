@@ -59,13 +59,9 @@ extern void MomentScene_Update_m986201EEE996B2B7DEA58105CE287E4DD6C91AEE (void);
 extern void MomentScene_OnGUI_mBD6540D07AA28DB611E879DD6902D237D3D90C29 (void);
 // 0x00000014 System.Void MomentScene::.ctor()
 extern void MomentScene__ctor_m19BCBF2954E467140195711153B1557F8F6A2C28 (void);
-// 0x00000015 System.Void MomentScene_<>c::.cctor()
-extern void U3CU3Ec__cctor_mE7278FF71ACBB98C7278277C2724201B60ED2583 (void);
-// 0x00000016 System.Void MomentScene_<>c::.ctor()
-extern void U3CU3Ec__ctor_m246815CD5E0680B49C784AEC35E00154621AC0CD (void);
-// 0x00000017 System.Void MomentScene_<>c::<Start>b__0_0(System.Int32,System.String)
-extern void U3CU3Ec_U3CStartU3Eb__0_0_m2EFE30A850A86C087CA82D733DAEA91936038132 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+// 0x00000015 System.Void MomentScene::<Start>b__0_0(System.Int32,System.String)
+extern void MomentScene_U3CStartU3Eb__0_0_m48AA47A409B8A57ED9053F7896247772D1084546 (void);
+static Il2CppMethodPointer s_methodPointers[21] = 
 {
 	LoginScene_Start_m5C3E60C7384089D1DBF5CB2D1429BA0E8E0ACCB0,
 	LoginScene_Update_mBC4601FFD3032544FCD355DCB1D64FCD1B22AEC2,
@@ -87,11 +83,9 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	MomentScene_Update_m986201EEE996B2B7DEA58105CE287E4DD6C91AEE,
 	MomentScene_OnGUI_mBD6540D07AA28DB611E879DD6902D237D3D90C29,
 	MomentScene__ctor_m19BCBF2954E467140195711153B1557F8F6A2C28,
-	U3CU3Ec__cctor_mE7278FF71ACBB98C7278277C2724201B60ED2583,
-	U3CU3Ec__ctor_m246815CD5E0680B49C784AEC35E00154621AC0CD,
-	U3CU3Ec_U3CStartU3Eb__0_0_m2EFE30A850A86C087CA82D733DAEA91936038132,
+	MomentScene_U3CStartU3Eb__0_0_m48AA47A409B8A57ED9053F7896247772D1084546,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[21] = 
 {
 	23,
 	23,
@@ -112,8 +106,6 @@ static const int32_t s_InvokerIndices[23] =
 	23,
 	23,
 	23,
-	23,
-	3,
 	23,
 	62,
 };
@@ -121,7 +113,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	21,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

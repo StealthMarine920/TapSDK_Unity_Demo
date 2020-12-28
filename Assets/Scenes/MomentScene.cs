@@ -2,20 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TapSDK;
+using UnityNative.Toasts;
 
 public class MomentScene : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        message = "动态页面";
-
         TDSMoment.InitSDK("FwFdCIr6u71WQDQwQN");
 
         TDSMoment.SetCallback((code, msg) =>
         {
             Debug.Log("moment 回调" + msg + "----");
-            message = "状态码: " + code + "  message:  " + msg;
+            if (code == 20100)
+            {
+                adapter.ShowShortToast("token 不能为空");
+            } else if (code == 20000) {
+                adapter.ShowShortToast("获取新消息成功");
+            } 
         });
     }
 
@@ -24,8 +28,7 @@ public class MomentScene : MonoBehaviour
     {
         
     }
-
-    public static string message;
+    private IosUnityNativeToastsAdapter adapter = new IosUnityNativeToastsAdapter();
 
     private void OnGUI()
     {
@@ -50,7 +53,5 @@ public class MomentScene : MonoBehaviour
         if (GUI.Button(new Rect(60, 308, 160, 80), "返回", style)) {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
         }
-
-        GUI.Label(new Rect(60, 400, 300, 300), message, labelStyle);
     }
 }

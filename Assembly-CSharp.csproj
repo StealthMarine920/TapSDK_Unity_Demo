@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{397C7CD5-97FD-218A-D2CA-39F28D601B2D}</ProjectGuid>
+    <ProjectGuid>{5394B4F0-66A2-2CEE-8A10-D2A253291975}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -598,8 +598,23 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="TDSMoment">
+      <HintPath>Library/ScriptAssemblies/TDSMoment.dll</HintPath>
+    </Reference>
+    <Reference Include="TDSLogin">
+      <HintPath>Library/ScriptAssemblies/TDSLogin.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TDS.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TDS.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TDSCommon">
+      <HintPath>Library/ScriptAssemblies/TDSCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="TDSTapDB">
+      <HintPath>Library/ScriptAssemblies/TDSTapDB.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -630,6 +645,11 @@
     </Reference>
     <Reference Include="MS.NativeDialog">
       <HintPath>Library/ScriptAssemblies/MS.NativeDialog.dll</HintPath>
+    <Reference Include="TDSCore">
+      <HintPath>Library/ScriptAssemblies/TDSCore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
