@@ -9,7 +9,7 @@ public class LoginScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //TDSLogin.Init("0RiAlMny7jiz086FaU");
     }
 
     // Update is called once per frame
@@ -21,15 +21,11 @@ public class LoginScene : MonoBehaviour
     private void OnGUI()
     {
         GUIStyle style = new GUIStyle(GUI.skin.button);
-        style.fontSize = 35;
-
-        GUIStyle labelStyle = new GUIStyle(GUI.skin.label);
-        labelStyle.fontSize = 20;
-        labelStyle.alignment = TextAnchor.MiddleLeft;
+        style.fontSize = 40;
 
         GUI.depth = 0;
 
-        if (GUI.Button(new Rect(60, 88, 160, 80), "登录", style))
+        if (GUI.Button(new Rect(60, 150, 180, 100), "登录", style))
         {
             TDSLogin.GetCurrentAccessToken((accessToken) =>
             {
@@ -45,7 +41,7 @@ public class LoginScene : MonoBehaviour
             });
         }
 
-        if (GUI.Button(new Rect(60, 198, 160, 80), "退出登录", style))
+        if (GUI.Button(new Rect(60, 300, 180, 100), "退出登录", style))
         {
             TDSLogin.GetCurrentAccessToken((accessToken) =>
             {                
@@ -61,7 +57,7 @@ public class LoginScene : MonoBehaviour
             });
         }
 
-        if (GUI.Button(new Rect(60, 308, 160, 80), "获取用户信息", style))
+        if (GUI.Button(new Rect(60, 450, 180, 100), "用户信息", style))
         {
             TDSLogin.GetCurrentProfile((accessToken) => {
                 if (accessToken == null)
@@ -75,7 +71,7 @@ public class LoginScene : MonoBehaviour
             });
         }
 
-        if (GUI.Button(new Rect(60, 418, 160, 80), "返回", style))
+        if (GUI.Button(new Rect(60, 600, 180, 100), "返回", style))
         {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
         }

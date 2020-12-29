@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TapSDK;
 
 public class TapDBScene : MonoBehaviour
 {
@@ -45,27 +46,28 @@ public class TapDBScene : MonoBehaviour
 
         if (GUI.Button(new Rect(680, 150, 160, 100), "服务器", style))
         {
-
+            TDSTapDB.SetServer(serverName);
         }
 
         if (GUI.Button(new Rect(680, 280, 160, 100), "用户名", style))
         {
-
+            TDSTapDB.SetName(userName);
         }
 
         if (GUI.Button(new Rect(680, 410, 160, 100), "等级", style))
         {
-
+            int rel = int.Parse(level);
+            TDSTapDB.SetLevel(rel);
         }
 
         if (GUI.Button(new Rect(680, 540, 160, 100), "充值", style))
         {
-
+            TDSTapDB.OnCharge("12345", "890", "3", "eur", "paypal");
         }
 
         if (GUI.Button(new Rect(680, 670, 160, 100), "事件", style))
         {
-
+            TDSTapDB.OnEvent("eventCode", "properies");
         }
 
 

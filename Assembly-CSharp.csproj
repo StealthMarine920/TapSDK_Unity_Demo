@@ -56,10 +56,10 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scenes/TapDBScene.cs" />
     <Compile Include="Assets/Scenes/MainScene.cs" />
     <Compile Include="Assets/Scenes/LoginScene.cs" />
     <Compile Include="Assets/Scenes/MomentScene.cs" />
-    <Compile Include="Assets/Scenes/TapDBScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -9,11 +9,11 @@ public class MomentScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TDSMoment.InitSDK("FwFdCIr6u71WQDQwQN");
-
+        TDSCore.EnableMoment();
+        
         TDSMoment.SetCallback((code, msg) =>
         {
-            Debug.Log("moment 回调" + msg + "----");
+            Debug.Log("---- moment 回调  code: " + code + " msg: " + msg + "----");
             if (code == 20100)
             {
                 UnityNativeToastsHelper.ShowShortText("token 不能为空");
@@ -32,24 +32,20 @@ public class MomentScene : MonoBehaviour
     private void OnGUI()
     {
         GUIStyle style = new GUIStyle(GUI.skin.button);
-        style.fontSize = 35;
-
-        GUIStyle labelStyle = new GUIStyle(GUI.skin.label);
-        labelStyle.fontSize = 25;
-        labelStyle.alignment = TextAnchor.MiddleLeft;
+        style.fontSize = 40;
 
         GUI.depth = 0;
 
-        if (GUI.Button(new Rect(60, 88, 160, 80), "打开动态", style)) {
+        if (GUI.Button(new Rect(60, 150, 180, 100), "打开动态", style)) {
             TDSMoment.OpenMoment(Orientation.ORIENTATION_DEFAULT);
         }
 
-        if (GUI.Button(new Rect(60, 198, 160, 80), "动态红点", style)) {
+        if (GUI.Button(new Rect(60, 300, 180, 100), "动态红点", style)) {
 
             TDSMoment.GetNoticeData();
         }
 
-        if (GUI.Button(new Rect(60, 308, 160, 80), "返回", style)) {
+        if (GUI.Button(new Rect(60, 450, 180, 100), "返回", style)) {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
         }
     }
