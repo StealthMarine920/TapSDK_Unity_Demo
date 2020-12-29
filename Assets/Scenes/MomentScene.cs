@@ -16,7 +16,7 @@ public class MomentScene : MonoBehaviour
             Debug.Log("---- moment 回调  code: " + code + " msg: " + msg + "----");
             if (code == 20100)
             {
-                UnityNativeToastsHelper.ShowShortText("token 不能为空");
+                UnityNativeToastsHelper.ShowShortText("当前未登录");
             } else if (code == 20000) {
                 UnityNativeToastsHelper.ShowShortText("获取新消息成功");
             } 
