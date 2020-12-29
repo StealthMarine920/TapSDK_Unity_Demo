@@ -16,60 +16,60 @@ public class TapDBScene : MonoBehaviour
         
     }
 
-    private string serveName;
-    private string userName;
-    private string level;
+    private string serverName = "serverName";
+    private string userName = "userName";
+    private string level = "1";
 
     private void OnGUI()
     {
         GUIStyle style = new GUIStyle(GUI.skin.button);
-        style.fontSize = 35;
+        style.fontSize = 40;
 
         GUIStyle labelStyle = new GUIStyle(GUI.skin.label);
-        labelStyle.fontSize = 35;
+        labelStyle.fontSize = 40;
         labelStyle.alignment = TextAnchor.MiddleLeft;
 
 
-        GUI.Label(new Rect(40, 100, 120, 50), "服务器", labelStyle);
-        GUI.Label(new Rect(40, 180, 120, 50), "用户名", labelStyle);
-        GUI.Label(new Rect(40, 260, 120, 50), "用户等级", labelStyle);
-        GUI.Label(new Rect(40, 340, 120, 50), "充值", labelStyle);
-        GUI.Label(new Rect(40, 420, 120, 50), "事件", labelStyle);
+        GUI.Label(new Rect(60, 150, 220, 80), "服务器", labelStyle);
+        GUI.Label(new Rect(60, 280, 220, 80), "用户名", labelStyle);
+        GUI.Label(new Rect(60, 410, 220, 80), "用户等级", labelStyle);
+        GUI.Label(new Rect(60, 540, 220, 80), "充值", labelStyle);
+        GUI.Label(new Rect(60, 670, 220, 80), "事件", labelStyle);
 
 
         GUIStyle inputStyle = new GUIStyle(GUI.skin.textArea);
         inputStyle.fontSize = 35;
-        serveName = GUI.TextArea(new Rect(180, 100, 100, 50), serveName, inputStyle);
-        userName = GUI.TextArea(new Rect(180, 180, 100, 50), userName, inputStyle);
-        level = GUI.TextArea(new Rect(180, 260, 100, 50), level, inputStyle);
+        serverName = GUI.TextArea(new Rect(310, 150, 350, 100), serverName, inputStyle);
+        userName = GUI.TextArea(new Rect(310, 280, 350, 100), userName, inputStyle);
+        level = GUI.TextArea(new Rect(310, 410, 350, 100), level, inputStyle);
 
-        if (GUI.Button(new Rect(300, 100, 160, 60), "服务器", style))
+        if (GUI.Button(new Rect(680, 150, 160, 100), "服务器", style))
         {
 
         }
 
-        if (GUI.Button(new Rect(300, 180, 160, 60), "用户名", style))
+        if (GUI.Button(new Rect(680, 280, 160, 100), "用户名", style))
         {
 
         }
 
-        if (GUI.Button(new Rect(300, 260, 160, 60), "等级", style))
+        if (GUI.Button(new Rect(680, 410, 160, 100), "等级", style))
         {
 
         }
 
-        if (GUI.Button(new Rect(180, 340, 160, 60), "充值", style))
+        if (GUI.Button(new Rect(680, 540, 160, 100), "充值", style))
         {
 
         }
 
-        if (GUI.Button(new Rect(180, 420, 160, 60), "事件", style))
+        if (GUI.Button(new Rect(680, 670, 160, 100), "事件", style))
         {
 
         }
 
 
-        if (GUI.Button(new Rect(40, 500, 160, 80), "返回", style))
+        if (GUI.Button(new Rect(60, 860, 160, 100), "返回", style))
         {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
         }
