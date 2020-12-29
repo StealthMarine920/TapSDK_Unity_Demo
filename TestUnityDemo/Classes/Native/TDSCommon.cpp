@@ -1189,10 +1189,12 @@ struct  Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194  : public RuntimeObject
 public:
 	// System.Int32 TDSCommon.Result::code
 	int32_t ___code_2;
+	// System.String TDSCommon.Result::message
+	String_t* ___message_3;
 	// System.String TDSCommon.Result::content
-	String_t* ___content_3;
+	String_t* ___content_4;
 	// System.String TDSCommon.Result::callbackId
-	String_t* ___callbackId_4;
+	String_t* ___callbackId_5;
 
 public:
 	inline static int32_t get_offset_of_code_2() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___code_2)); }
@@ -1203,22 +1205,31 @@ public:
 		___code_2 = value;
 	}
 
-	inline static int32_t get_offset_of_content_3() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___content_3)); }
-	inline String_t* get_content_3() const { return ___content_3; }
-	inline String_t** get_address_of_content_3() { return &___content_3; }
-	inline void set_content_3(String_t* value)
+	inline static int32_t get_offset_of_message_3() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___message_3)); }
+	inline String_t* get_message_3() const { return ___message_3; }
+	inline String_t** get_address_of_message_3() { return &___message_3; }
+	inline void set_message_3(String_t* value)
 	{
-		___content_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___content_3), (void*)value);
+		___message_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___message_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_callbackId_4() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___callbackId_4)); }
-	inline String_t* get_callbackId_4() const { return ___callbackId_4; }
-	inline String_t** get_address_of_callbackId_4() { return &___callbackId_4; }
-	inline void set_callbackId_4(String_t* value)
+	inline static int32_t get_offset_of_content_4() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___content_4)); }
+	inline String_t* get_content_4() const { return ___content_4; }
+	inline String_t** get_address_of_content_4() { return &___content_4; }
+	inline void set_content_4(String_t* value)
 	{
-		___callbackId_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___callbackId_4), (void*)value);
+		___content_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___content_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_callbackId_5() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___callbackId_5)); }
+	inline String_t* get_callbackId_5() const { return ___callbackId_5; }
+	inline String_t** get_address_of_callbackId_5() { return &___callbackId_5; }
+	inline void set_callbackId_5(String_t* value)
+	{
+		___callbackId_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callbackId_5), (void*)value);
 	}
 };
 
@@ -3164,7 +3175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BridgeIOS_engineBridgeDelegate_m99A321D5
 		Dictionary_2_t34639EE8BEF152AF31F88A1B22DA5D2D0277A227 * L_7 = V_1;
 		Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194 * L_8 = V_0;
 		NullCheck(L_8);
-		String_t* L_9 = L_8->get_callbackId_4();
+		String_t* L_9 = L_8->get_callbackId_5();
 		NullCheck(L_7);
 		bool L_10 = Dictionary_2_ContainsKey_m058F2025BE27E40EC78950A6F6919FC293BA40F5(L_7, L_9, /*hidden argument*/Dictionary_2_ContainsKey_m058F2025BE27E40EC78950A6F6919FC293BA40F5_RuntimeMethod_var);
 		if (!L_10)
@@ -3177,7 +3188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BridgeIOS_engineBridgeDelegate_m99A321D5
 		Dictionary_2_t34639EE8BEF152AF31F88A1B22DA5D2D0277A227 * L_11 = V_1;
 		Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194 * L_12 = V_0;
 		NullCheck(L_12);
-		String_t* L_13 = L_12->get_callbackId_4();
+		String_t* L_13 = L_12->get_callbackId_5();
 		NullCheck(L_11);
 		Action_1_tCB3A038A68DF791019158604CA48B6E466ECF357 * L_14 = Dictionary_2_get_Item_mDCBE96075EBBD319B8A6DE0A9AE8EF39093386E7(L_11, L_13, /*hidden argument*/Dictionary_2_get_Item_mDCBE96075EBBD319B8A6DE0A9AE8EF39093386E7_RuntimeMethod_var);
 		V_2 = L_14;

@@ -59,14 +59,18 @@ public class LoginScene : MonoBehaviour
 
         if (GUI.Button(new Rect(60, 450, 180, 100), "用户信息", style))
         {
-            TDSLogin.GetCurrentProfile((accessToken) => {
+            TDSLogin.GetCurrentAccessToken((accessToken) =>
+            {
                 if (accessToken == null)
                 {
                     UnityNativeToastsHelper.ShowShortText("当前没有登录");
                 }
-                else {
-                    string str = accessToken.ToJSON();
-                    UnityNativeToastsHelper.ShowShortText(str);
+                else
+                {
+                    TDSLogin.FetchProfileForCurrentAccessToken((profile) => {
+                        string str = profile.ToJSON();
+                        UnityNativeToastsHelper.ShowShortText(str);
+                    },null);
                 }
             });
         }

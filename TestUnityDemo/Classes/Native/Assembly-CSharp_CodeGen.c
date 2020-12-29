@@ -35,59 +35,61 @@ extern void U3CU3Ec__ctor_m6941471AC5F83E1DA558B60B7D228137A3184024 (void);
 extern void U3CU3Ec_U3COnGUIU3Eb__2_0_mC43D70AFDCBF7EBC581884A0FEB9E5D085A783F7 (void);
 // 0x00000008 System.Void LoginScene_<>c::<OnGUI>b__2_1(TapSDK.TDSAccessToken)
 extern void U3CU3Ec_U3COnGUIU3Eb__2_1_mC25C6589D51924EBF4A129C5C1E1F7232FB52902 (void);
-// 0x00000009 System.Void LoginScene_<>c::<OnGUI>b__2_2(TapSDK.TDSLoginProfile)
-extern void U3CU3Ec_U3COnGUIU3Eb__2_2_m233B48D6700B7919F91454D6E69196C16CCAD70F (void);
-// 0x0000000A System.Void MainScene::Start()
+// 0x00000009 System.Void LoginScene_<>c::<OnGUI>b__2_2(TapSDK.TDSAccessToken)
+extern void U3CU3Ec_U3COnGUIU3Eb__2_2_m70EE21C12576D8CB0DB4A1ECED0224DBDA4404CE (void);
+// 0x0000000A System.Void LoginScene_<>c::<OnGUI>b__2_3(TapSDK.TDSLoginProfile)
+extern void U3CU3Ec_U3COnGUIU3Eb__2_3_m04CD3DCD98B80C113CCC3E18E0E429B6C0215EF8 (void);
+// 0x0000000B System.Void MainScene::Start()
 extern void MainScene_Start_m6DD31B1A34B378F24B2FE8B4E0803E2B5409F1DE (void);
-// 0x0000000B System.Void MainScene::Update()
+// 0x0000000C System.Void MainScene::Update()
 extern void MainScene_Update_mE267EBBB4BDBEA728D0F4CAD1F951DCA437D9DD5 (void);
-// 0x0000000C System.Void MainScene::LoginSuccess(TapSDK.TDSAccessToken)
+// 0x0000000D System.Void MainScene::LoginSuccess(TapSDK.TDSAccessToken)
 extern void MainScene_LoginSuccess_m24339500C40C7CCD657C59670854E4097A9E9831 (void);
-// 0x0000000D System.Void MainScene::LoginError(TapSDK.TDSAccountError)
+// 0x0000000E System.Void MainScene::LoginError(TapSDK.TDSAccountError)
 extern void MainScene_LoginError_m149CB9859591C1E85F67E3DA3432A77EE416F3AC (void);
-// 0x0000000E System.Void MainScene::LoginCancel()
+// 0x0000000F System.Void MainScene::LoginCancel()
 extern void MainScene_LoginCancel_mB23531F6C560EABDC4595F365CB5A03E05AB2A61 (void);
-// 0x0000000F System.Void MainScene::reLogin()
+// 0x00000010 System.Void MainScene::reLogin()
 extern void MainScene_reLogin_m0170468A231BE2A64E77A1D57920801FD856F18D (void);
-// 0x00000010 System.Void MainScene::cancel()
+// 0x00000011 System.Void MainScene::cancel()
 extern void MainScene_cancel_m81CE625558BC6B8ECE745F3FB87DF462A37F1E20 (void);
-// 0x00000011 System.Void MainScene::login()
+// 0x00000012 System.Void MainScene::login()
 extern void MainScene_login_m236A5E67B04EF0C8FF5D42FCE90F50331CAEDF6D (void);
-// 0x00000012 System.Void MainScene::OnGUI()
+// 0x00000013 System.Void MainScene::OnGUI()
 extern void MainScene_OnGUI_mC75532909210BDCD02A5B4F5CC7CEBDBFC00ADBE (void);
-// 0x00000013 System.Void MainScene::.ctor()
+// 0x00000014 System.Void MainScene::.ctor()
 extern void MainScene__ctor_m2B04BB660E5D4C1A57FAC8D21126182B1E9818A8 (void);
-// 0x00000014 System.Void MainScene_<>c::.cctor()
+// 0x00000015 System.Void MainScene_<>c::.cctor()
 extern void U3CU3Ec__cctor_m876C4D8AE0F1A51326FF138A0FEFE7829B265984 (void);
-// 0x00000015 System.Void MainScene_<>c::.ctor()
+// 0x00000016 System.Void MainScene_<>c::.ctor()
 extern void U3CU3Ec__ctor_mD78DA4BB1FDB73318C0F82A4FFC2B884BFFE629D (void);
-// 0x00000016 System.Void MainScene_<>c::<LoginSuccess>b__3_0(TapSDK.TDSLoginProfile)
+// 0x00000017 System.Void MainScene_<>c::<LoginSuccess>b__3_0(TapSDK.TDSLoginProfile)
 extern void U3CU3Ec_U3CLoginSuccessU3Eb__3_0_mDEEE0FB309DB28A186A63497B4BACF4B0E2E4BA4 (void);
-// 0x00000017 System.Void MainScene_<>c::<OnGUI>b__9_0(TapSDK.TDSLoginProfile)
+// 0x00000018 System.Void MainScene_<>c::<OnGUI>b__9_0(TapSDK.TDSLoginProfile)
 extern void U3CU3Ec_U3COnGUIU3Eb__9_0_mB42ED2FB4DE186E643BCE8EA0977ED4C984D8F3A (void);
-// 0x00000018 System.Void MomentScene::Start()
+// 0x00000019 System.Void MomentScene::Start()
 extern void MomentScene_Start_m57C74FEE8B3FB402CDEFB48BCA3122713CCAF6AE (void);
-// 0x00000019 System.Void MomentScene::Update()
+// 0x0000001A System.Void MomentScene::Update()
 extern void MomentScene_Update_m986201EEE996B2B7DEA58105CE287E4DD6C91AEE (void);
-// 0x0000001A System.Void MomentScene::OnGUI()
+// 0x0000001B System.Void MomentScene::OnGUI()
 extern void MomentScene_OnGUI_mBD6540D07AA28DB611E879DD6902D237D3D90C29 (void);
-// 0x0000001B System.Void MomentScene::.ctor()
+// 0x0000001C System.Void MomentScene::.ctor()
 extern void MomentScene__ctor_m19BCBF2954E467140195711153B1557F8F6A2C28 (void);
-// 0x0000001C System.Void MomentScene_<>c::.cctor()
+// 0x0000001D System.Void MomentScene_<>c::.cctor()
 extern void U3CU3Ec__cctor_mE7278FF71ACBB98C7278277C2724201B60ED2583 (void);
-// 0x0000001D System.Void MomentScene_<>c::.ctor()
+// 0x0000001E System.Void MomentScene_<>c::.ctor()
 extern void U3CU3Ec__ctor_m246815CD5E0680B49C784AEC35E00154621AC0CD (void);
-// 0x0000001E System.Void MomentScene_<>c::<Start>b__0_0(System.Int32,System.String)
+// 0x0000001F System.Void MomentScene_<>c::<Start>b__0_0(System.Int32,System.String)
 extern void U3CU3Ec_U3CStartU3Eb__0_0_m2EFE30A850A86C087CA82D733DAEA91936038132 (void);
-// 0x0000001F System.Void TapDBScene::Start()
+// 0x00000020 System.Void TapDBScene::Start()
 extern void TapDBScene_Start_m10C3C6E3922DF649D976CB240485E0CDC736404A (void);
-// 0x00000020 System.Void TapDBScene::Update()
+// 0x00000021 System.Void TapDBScene::Update()
 extern void TapDBScene_Update_m9B8C59B032EEE10F57D2605078F6CB92076E9C5E (void);
-// 0x00000021 System.Void TapDBScene::OnGUI()
+// 0x00000022 System.Void TapDBScene::OnGUI()
 extern void TapDBScene_OnGUI_m4D5EF678FD217872BDFFECFF3A4E81AE1D439D02 (void);
-// 0x00000022 System.Void TapDBScene::.ctor()
+// 0x00000023 System.Void TapDBScene::.ctor()
 extern void TapDBScene__ctor_mA566976B2DF44A88295B4994A9B781CD9F6529B5 (void);
-static Il2CppMethodPointer s_methodPointers[34] = 
+static Il2CppMethodPointer s_methodPointers[35] = 
 {
 	LoginScene_Start_m5C3E60C7384089D1DBF5CB2D1429BA0E8E0ACCB0,
 	LoginScene_Update_mBC4601FFD3032544FCD355DCB1D64FCD1B22AEC2,
@@ -97,7 +99,8 @@ static Il2CppMethodPointer s_methodPointers[34] =
 	U3CU3Ec__ctor_m6941471AC5F83E1DA558B60B7D228137A3184024,
 	U3CU3Ec_U3COnGUIU3Eb__2_0_mC43D70AFDCBF7EBC581884A0FEB9E5D085A783F7,
 	U3CU3Ec_U3COnGUIU3Eb__2_1_mC25C6589D51924EBF4A129C5C1E1F7232FB52902,
-	U3CU3Ec_U3COnGUIU3Eb__2_2_m233B48D6700B7919F91454D6E69196C16CCAD70F,
+	U3CU3Ec_U3COnGUIU3Eb__2_2_m70EE21C12576D8CB0DB4A1ECED0224DBDA4404CE,
+	U3CU3Ec_U3COnGUIU3Eb__2_3_m04CD3DCD98B80C113CCC3E18E0E429B6C0215EF8,
 	MainScene_Start_m6DD31B1A34B378F24B2FE8B4E0803E2B5409F1DE,
 	MainScene_Update_mE267EBBB4BDBEA728D0F4CAD1F951DCA437D9DD5,
 	MainScene_LoginSuccess_m24339500C40C7CCD657C59670854E4097A9E9831,
@@ -124,7 +127,7 @@ static Il2CppMethodPointer s_methodPointers[34] =
 	TapDBScene_OnGUI_m4D5EF678FD217872BDFFECFF3A4E81AE1D439D02,
 	TapDBScene__ctor_mA566976B2DF44A88295B4994A9B781CD9F6529B5,
 };
-static const int32_t s_InvokerIndices[34] = 
+static const int32_t s_InvokerIndices[35] = 
 {
 	23,
 	23,
@@ -132,6 +135,7 @@ static const int32_t s_InvokerIndices[34] =
 	23,
 	3,
 	23,
+	26,
 	26,
 	26,
 	26,
@@ -165,7 +169,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	34,
+	35,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

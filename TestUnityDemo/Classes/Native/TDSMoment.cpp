@@ -445,10 +445,12 @@ struct  Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194  : public RuntimeObject
 public:
 	// System.Int32 TDSCommon.Result::code
 	int32_t ___code_2;
+	// System.String TDSCommon.Result::message
+	String_t* ___message_3;
 	// System.String TDSCommon.Result::content
-	String_t* ___content_3;
+	String_t* ___content_4;
 	// System.String TDSCommon.Result::callbackId
-	String_t* ___callbackId_4;
+	String_t* ___callbackId_5;
 
 public:
 	inline static int32_t get_offset_of_code_2() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___code_2)); }
@@ -459,22 +461,31 @@ public:
 		___code_2 = value;
 	}
 
-	inline static int32_t get_offset_of_content_3() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___content_3)); }
-	inline String_t* get_content_3() const { return ___content_3; }
-	inline String_t** get_address_of_content_3() { return &___content_3; }
-	inline void set_content_3(String_t* value)
+	inline static int32_t get_offset_of_message_3() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___message_3)); }
+	inline String_t* get_message_3() const { return ___message_3; }
+	inline String_t** get_address_of_message_3() { return &___message_3; }
+	inline void set_message_3(String_t* value)
 	{
-		___content_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___content_3), (void*)value);
+		___message_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___message_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_callbackId_4() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___callbackId_4)); }
-	inline String_t* get_callbackId_4() const { return ___callbackId_4; }
-	inline String_t** get_address_of_callbackId_4() { return &___callbackId_4; }
-	inline void set_callbackId_4(String_t* value)
+	inline static int32_t get_offset_of_content_4() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___content_4)); }
+	inline String_t* get_content_4() const { return ___content_4; }
+	inline String_t** get_address_of_content_4() { return &___content_4; }
+	inline void set_content_4(String_t* value)
 	{
-		___callbackId_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___callbackId_4), (void*)value);
+		___content_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___content_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_callbackId_5() { return static_cast<int32_t>(offsetof(Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194, ___callbackId_5)); }
+	inline String_t* get_callbackId_5() const { return ___callbackId_5; }
+	inline String_t** get_address_of_callbackId_5() { return &___callbackId_5; }
+	inline void set_callbackId_5(String_t* value)
+	{
+		___callbackId_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callbackId_5), (void*)value);
 	}
 };
 
@@ -2465,7 +2476,7 @@ IL_0023:
 		// if (string.IsNullOrEmpty(result.content))
 		Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194 * L_6 = ___result0;
 		NullCheck(L_6);
-		String_t* L_7 = L_6->get_content_3();
+		String_t* L_7 = L_6->get_content_4();
 		bool L_8 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
@@ -2482,7 +2493,7 @@ IL_0031:
 		// MomentCallbackBean bean = new MomentCallbackBean(result.content);
 		Result_t44197AD3E7A7B7FEDB97181B130768C76E31E194 * L_9 = ___result0;
 		NullCheck(L_9);
-		String_t* L_10 = L_9->get_content_3();
+		String_t* L_10 = L_9->get_content_4();
 		MomentCallbackBean_t299BD154DCC8707843677860C5DE526D4F824269 * L_11 = (MomentCallbackBean_t299BD154DCC8707843677860C5DE526D4F824269 *)il2cpp_codegen_object_new(MomentCallbackBean_t299BD154DCC8707843677860C5DE526D4F824269_il2cpp_TypeInfo_var);
 		MomentCallbackBean__ctor_mC284D939F3CDF2BF4E50814373A18CA7564EF678(L_11, L_10, /*hidden argument*/NULL);
 		V_0 = L_11;

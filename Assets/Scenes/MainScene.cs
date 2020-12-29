@@ -45,16 +45,13 @@ public class MainScene : MonoBehaviour, LoginCallback
         Debug.Log("登录失败的error信息:  " + error.error);
         if (error.error == "access_denied" || error.error == "forbidden" || error.error == "invalid_grant")
         {
-            Debug.Log("登录Token失效...  isFlag: " + !isFlag);
             if (!isFlag) {
-                Debug.Log("走进来...");
                 reLogin();
-                // UnityNativeToastsHelper.ShowShortText("Token 失效");
             }            
         }
         else {
             isFlag = false;
-            UnityNativeToastsHelper.ShowShortText("登录失败");
+            UnityNativeToastsHelper.ShowShortText("登录失败: "+error.error);
         }
     }
 
@@ -66,7 +63,6 @@ public class MainScene : MonoBehaviour, LoginCallback
 
     void reLogin() {
         isFlag = true;
-        Debug.Log("走进来了。。。");
         NativeDialogManager.Display(new DialogDisplayOptions()
         {
             title = "提示",
