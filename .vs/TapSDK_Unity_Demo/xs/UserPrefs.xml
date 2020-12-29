@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{5394B4F0-66A2-2CEE-8A10-D2A253291975}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/MainScene.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scenes/MainScene.cs" Line="81" Column="10" />
-      <File FileName="Assets/Scenes/LoginScene.cs" />
-      <File FileName="Assets/Scenes/TapDBScene.cs" />
-      <File FileName="Assets/Scenes/MomentScene.cs" />
+      <File FileName="Assets/Scenes/MainScene.cs" Line="15" Column="41" />
+      <File FileName="Assets/Scenes/LoginScene.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scenes/TapDBScene.cs" Line="50" Column="10" />
+      <File FileName="Assets/Scenes/MomentScene.cs" Line="40" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="TapSDK_Unity_Demo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scenes" expanded="True">
-                <Node name="MainScene.cs" selected="True" />
+                <Node name="MomentScene.cs" selected="True" />
               </Node>
             </Node>
           </Node>
