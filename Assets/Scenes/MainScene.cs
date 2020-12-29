@@ -12,7 +12,7 @@ public class MainScene : MonoBehaviour, LoginCallback
     void Start()
     {
         //初始化
-        TDSCore.Init("0RiAlMny7jiz086FaU");
+        TDSCore.Init("");
 
         //注册回调
         TDSLogin.RegisterLoginCallback(this);
@@ -28,10 +28,12 @@ public class MainScene : MonoBehaviour, LoginCallback
        
     }
 
+    private bool isFlag = false;
+
     public void LoginSuccess(TDSAccessToken accessToken)
     {
+        isFlag = false;
         UnityNativeToastsHelper.ShowShortText("登录成功");
-
         TDSLogin.GetCurrentProfile((profile) => {
             string userId = profile.openid;
             TDSTapDB.SetUser(userId);
@@ -39,22 +41,27 @@ public class MainScene : MonoBehaviour, LoginCallback
     }
 
     public void LoginError(TDSAccountError error)
-    {        
+    {
         if (error.error == "access_denied" || error.error == "forbidden" || error.error == "invalid_grant")
         {
-            reLogin();
+            if (!isFlag) {
+                reLogin();
+            }            
         }
         else {
+            isFlag = false;
             UnityNativeToastsHelper.ShowShortText("登录失败");
         }
     }
 
     public void LoginCancel()
     {
+        isFlag = false;
         UnityNativeToastsHelper.ShowShortText("取消登录");
     }
 
     void reLogin() {
+        isFlag = true;
         NativeDialogManager.Display(new DialogDisplayOptions()
         {
             title = "提示",
@@ -69,6 +76,7 @@ public class MainScene : MonoBehaviour, LoginCallback
 
     void cancel() {
         Debug.Log("取消再次登录");
+        isFlag = false;
     }
 
     void login() {

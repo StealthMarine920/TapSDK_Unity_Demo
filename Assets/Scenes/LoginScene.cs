@@ -9,7 +9,7 @@ public class LoginScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TDSLogin.Init("0RiAlMny7jiz086FaU");
+
     }
 
     // Update is called once per frame

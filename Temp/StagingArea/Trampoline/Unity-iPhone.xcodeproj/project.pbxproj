@@ -7,84 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013544FEBE822005302EA3C3 /* Il2CppCompilerCalculateTypeValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7344A51954E9F5701D29E33 /* Il2CppCompilerCalculateTypeValues.cpp */; };
-		0362494BB966334B7256AD4B /* UnityEngine.CoreModule1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C4A8CA165DCB08489A31F /* UnityEngine.CoreModule1.cpp */; };
-		037C48A2ACE6818E463A7F92 /* Il2CppReversePInvokeWrapperTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D794FFB8ED47F3B721988D3 /* Il2CppReversePInvokeWrapperTable.cpp */; };
-		047244AF9DA60E3810D379D3 /* System.Core_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = A47B42AA81A284A4DF1DF967 /* System.Core_CodeGen.c */; };
-		047F4F1CBA19E4BA571EDDA0 /* UnityEngine.TextRenderingModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A7542D685FF83067DEBBEEA /* UnityEngine.TextRenderingModule_CodeGen.c */; };
-		06D84F3D8BAB725A634B2C54 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = FDAB46FDAE059DBD42BEAAB2 /* profile.json */; };
-		075C495DB668382267B48236 /* UnityClassRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 210C45259AA101BA8A294E51 /* UnityClassRegistration.cpp */; };
-		0811430BBEDD83ACCAA50F14 /* IUnityGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAA4AAA89B8B06A6B845C07 /* IUnityGraphics.h */; };
-		094C48338B2CB07E93F8FBAA /* UnityEngine.GameCenterModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 974E46CA9E94C2717445AE55 /* UnityEngine.GameCenterModule_CodeGen.c */; };
-		0E314525953FD342968D30A4 /* Il2CppGenericMethodTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B0149909C20CC8297A07BF6 /* Il2CppGenericMethodTable.c */; };
-		1711492D8F8C9F695980091A /* Il2CppMetadataUsage.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B2849B38DF86C2B832EE8A4 /* Il2CppMetadataUsage.c */; };
-		194C4344B401091B60D06EA9 /* LaunchScreen-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F24B549A7049A5E5E23B7F /* LaunchScreen-iPad.png */; };
-		19794D2CA1E3A9D82BFB8333 /* Il2CppAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63E3474FB9DC854C67B46952 /* Il2CppAttributes.cpp */; };
-		19A4482AA8F6FC88DAA95912 /* mscorlib8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60D141B59D6B82DB172A921C /* mscorlib8.cpp */; };
-		1C6C48DA83CA1BB93467437D /* UnresolvedVirtualCallStubs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9941BFBA69B417C1F16C50 /* UnresolvedVirtualCallStubs.cpp */; };
-		1DBD43938BEF71AC798C7E8B /* Il2CppMetadataRegistration.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6415BBD13A06E51F3F70F /* Il2CppMetadataRegistration.c */; };
-		1EDB4918AA7FCCA7F837D814 /* mscorlib6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC6C4454A3EF4185E36422DC /* mscorlib6.cpp */; };
-		2527424EA9B83EAFC1ED5E1B /* mscorlib7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439C405AAD4F38D098768AB6 /* mscorlib7.cpp */; };
-		25324C9DA5BCB8397C65E1BA /* Il2CppGenericInstDefinitions.c in Sources */ = {isa = PBXBuildFile; fileRef = D94D41B2946C8B79AF171215 /* Il2CppGenericInstDefinitions.c */; };
-		263748CAB1C613A7617BC4FA /* UnityEngine.SharedInternalsModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AA34BBDB48746F97961D36E /* UnityEngine.SharedInternalsModule_CodeGen.c */; };
-		27BE410991ABA1FA0DD84310 /* mscorlib1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC884691AD7C9EAFEAF98BA7 /* mscorlib1.cpp */; };
-		2B6548F38F57086407421C50 /* TDSMoment_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = C8AF4E7C904826F0D2630724 /* TDSMoment_CodeGen.c */; };
-		2C0F442AA123485A19F01B04 /* TDSMoment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A304EE6AE8DE92119D3B918 /* TDSMoment.cpp */; };
-		2F9A4388BD28BF3BC648AC99 /* UnityEngine.IMGUIModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D4076B741504BDC0134A8 /* UnityEngine.IMGUIModule.cpp */; };
-		302E45769FD1167FF77F5751 /* IUnityGraphicsMetal.h in Headers */ = {isa = PBXBuildFile; fileRef = AB564217B094D3040992C3F6 /* IUnityGraphicsMetal.h */; };
-		31F64230A937EB294FA31F6F /* UnityEngine.JSONSerializeModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 885649FA8AA0AB33D38C443A /* UnityEngine.JSONSerializeModule_CodeGen.c */; };
-		35EA4A0A8F73596FBC2BFEFC /* UnityEngine.JSONSerializeModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7DA41899E269BE6F29A5E5E /* UnityEngine.JSONSerializeModule.cpp */; };
-		37C6434BB8DE41F855037DB5 /* UnityEngine.AudioModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7674573AD7808C53CFBA3D7 /* UnityEngine.AudioModule.cpp */; };
-		3E26437F9829584E2D1FE04C /* UnityNative_Toasts.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20E641FA955F169A77A4BA58 /* UnityNative_Toasts.mm */; };
-		3F204A618C1D16C447BBD5D8 /* System.Configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768B4125AE2C20BFE8AA472D /* System.Configuration.cpp */; };
-		41E94A0EAF7FA34CADB9DD62 /* TDSTapDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 191B4FA587CE9DC3FEAF4E10 /* TDSTapDB.cpp */; };
-		41FF4BD3B11E4752AA7EDB2C /* UnityNativeDialogs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E54A8682FB07F2FF874D2D /* UnityNativeDialogs.mm */; };
-		435340D68ECCE76B16D79BF0 /* System1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4E65A52CBFE828BA1676 /* System1.cpp */; };
-		468B40E496DF9BEAB80824FE /* LaunchScreen-iPhoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5C4856B0959757DB4B5977 /* LaunchScreen-iPhoneLandscape.png */; };
-		4A0A49FDB592A4B3160B4F72 /* MS.NativeDialog_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4F01839C0D2452F267FD /* MS.NativeDialog_CodeGen.c */; };
-		4ADC47AAB680BFC9B5227B16 /* libiPhone-lib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BC496F8C0E321218D242B3 /* libiPhone-lib.dylib */; };
-		4BE7489ABB199F2417589027 /* TDSLogin_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 172348B28DCC88E9BC3858B3 /* TDSLogin_CodeGen.c */; };
-		4C6C448BB3C44008190A5B2E /* Il2CppCompilerCalculateTypeValuesTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C634EA1B6539864D72903F8 /* Il2CppCompilerCalculateTypeValuesTable.cpp */; };
-		50E1444CAACF8AC5BB8F150F /* mscorlib14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE334CBEBBFF70270FF403E1 /* mscorlib14.cpp */; };
-		51C741A1961E2E7A9B3C6CD6 /* mscorlib15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC54CFFB0A546FE1D487289 /* mscorlib15.cpp */; };
-		52034143BAD26F0F6EFF71CE /* GenericMethods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698A492CB8C439D4627E559E /* GenericMethods.cpp */; };
-		53A44B6DAA8DC78D7969746F /* UnityEngine.TextRenderingModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1145BDB4CFE5BB7CBE7199 /* UnityEngine.TextRenderingModule.cpp */; };
+		080F4E5BB33430CDA78328BF /* mscorlib2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7454ED99728E47AC793E918 /* mscorlib2.cpp */; };
+		09284545914F93BA69AB3B90 /* TDSCommon_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 361748A081C41B5F698020BF /* TDSCommon_CodeGen.c */; };
+		099B42D5B1A4ACE075FAA06A /* UnityEngine.InputLegacyModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C4F1B8A5C52FBCD48D367 /* UnityEngine.InputLegacyModule_CodeGen.c */; };
+		0DC34F889E9794E6B7F46FAA /* TDSCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3A24D5CAF0DF71D7717C91A /* TDSCommon.cpp */; };
+		12EB4ADEB7D9EC6F24DCFBC8 /* UnityNative.Toasts.Example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C54E65BE38DB1CA23412BB /* UnityNative.Toasts.Example.cpp */; };
+		13ED4121B21FD1FFECF7E545 /* GenericMethods1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956B45F79C85A99AF4E8C20C /* GenericMethods1.cpp */; };
+		15174233BC6C37F5CC68F875 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = 151345AF83374CDF4306BF4D /* profile.json */; };
+		16D2409895AA42BC7C9AB8B8 /* UnityEngine.InputLegacyModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC544497B4CC68AAEECB3433 /* UnityEngine.InputLegacyModule.cpp */; };
+		1F654A4CAF46C6896B19C6CF /* mscorlib6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DB4322BDC8C7776EB8D8E0 /* mscorlib6.cpp */; };
+		20F849479A4BF958A2139CAE /* mscorlib15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F46328786CF638456B35A /* mscorlib15.cpp */; };
+		212A48D1B9DE2DAD81FD73AA /* Il2CppReversePInvokeWrapperTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 745E40E79B1ECA6E1740F9AD /* Il2CppReversePInvokeWrapperTable.cpp */; };
+		213E4889B0C831935E810208 /* Generics3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC974272BD81550247D4A1A5 /* Generics3.cpp */; };
+		219849AAA0802A9F5CB68CFB /* UnityEngine.AndroidJNIModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9044366B97B19FACF5849AE /* UnityEngine.AndroidJNIModule.cpp */; };
+		230147678BCF14D416FB6C7D /* UnityEngine.TextRenderingModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1345ABBC1E2604AF019079 /* UnityEngine.TextRenderingModule.cpp */; };
+		233B44C7B6DD3D998D1BE9C5 /* UnityEngine.SharedInternalsModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 84A44575B592B34AD1420D77 /* UnityEngine.SharedInternalsModule_CodeGen.c */; };
+		23964FBC8007FE58CAF25E57 /* TDSTapDB_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 16434296AA26D8B7D69FA956 /* TDSTapDB_CodeGen.c */; };
+		244F4CECB94C15867B345E59 /* Il2CppCodeRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93124539A8487F3152BA60D5 /* Il2CppCodeRegistration.cpp */; };
+		27B14E2B94CDC1E251248227 /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E94F108F9C95166E2622FD /* LaunchScreen-iPad.storyboard */; };
+		2D3E4A2FB870942AB0E96C29 /* GenericMethods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87FE4105A90CEA3E00E5463C /* GenericMethods.cpp */; };
+		2DBE44ECAAA8D7E4D3DA16C2 /* Generics2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D945519EFB2C37A28E65B1 /* Generics2.cpp */; };
+		2E6F4E6A9AA8B6065DA26B74 /* System1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2E6436286AC4706CA7910D3 /* System1.cpp */; };
+		2E9B414BB9A302957940F98E /* Generics4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603B4669ACD0606B4B3E6234 /* Generics4.cpp */; };
+		32264D2DB72B343600A002B3 /* LaunchScreen-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB0475C83049AB5ABEB133D /* LaunchScreen-iPad.png */; };
+		33F8496FA78688A0E0E8D1AA /* TDSCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5435426E944F95E4EF2E213C /* TDSCore.cpp */; };
+		35BF47A8AEB4DB6F6A29B7D1 /* UnityEngine.AudioModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 57924F8590AF58250B3B3D2D /* UnityEngine.AudioModule_CodeGen.c */; };
+		375344FD83C2E357F4B5E5E3 /* LaunchScreen-iPhonePortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C26C464F85CDA18207697782 /* LaunchScreen-iPhonePortrait.png */; };
+		37F84D00A71697E2FF8C6457 /* TapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DC4831B76C24E1242E954F /* TapSDK.framework */; };
+		3A0446CFBE8A138E92565DA1 /* UnityNative.Toasts.Example_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 435A4E3C81458655B6A62BC3 /* UnityNative.Toasts.Example_CodeGen.c */; };
+		3A244DEF89F7D312356160BB /* mscorlib8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72DE40BF9EB7B67E15A70523 /* mscorlib8.cpp */; };
+		3F764402AC8F9C37C185EA43 /* mscorlib5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17854A4CA4992E406629433D /* mscorlib5.cpp */; };
+		409C42AD9300C57716D31FC3 /* UnityEngine.CoreModule1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2484990831BDBC3E58E5DD0 /* UnityEngine.CoreModule1.cpp */; };
+		41164F1AA83BFFB5C7C0DE74 /* Mono.Security_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 79224E2EBE43E0FD32C4105C /* Mono.Security_CodeGen.c */; };
+		42764360A000BA8EEF61F547 /* MS.NativeDialog_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = ABA2461FB3EC19BA24AA8396 /* MS.NativeDialog_CodeGen.c */; };
+		450A45D5AF83C90BB526F3F6 /* UnityEngine.TextRenderingModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 25D543B586084BEE288E7CB7 /* UnityEngine.TextRenderingModule_CodeGen.c */; };
+		46284B7A9EDBB845D0118EE8 /* System_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = FAA9440597AFC2A000ECC711 /* System_CodeGen.c */; };
+		479E478E98A715EFCB96C272 /* UnityEngine.AndroidJNIModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D284D4BAD317719E2145004 /* UnityEngine.AndroidJNIModule_CodeGen.c */; };
+		484143A2B44C93D2D429F5D9 /* DynamicLibEngineAPI.mm in Sources */ = {isa = PBXBuildFile; fileRef = E48C4FFA98718C0E001D5E9F /* DynamicLibEngineAPI.mm */; };
+		4D4F40E9A3824C67040345B1 /* TDSTapDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955949D19B42D8AF2D2CDD51 /* TDSTapDB.cpp */; };
+		50B747BBB6422A3D34B5A1CC /* mscorlib10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 192C4B2B905E3A72DBEAC753 /* mscorlib10.cpp */; };
+		51DE474DB33CCFC9F45F0330 /* LaunchScreen-iPhoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD04814BC71A6DBB41C8158 /* LaunchScreen-iPhoneLandscape.png */; };
+		55014676AC1B2BED7A81FFDA /* Il2CppInteropDataTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC40A982A206DCC8A4C7A8 /* Il2CppInteropDataTable.cpp */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
 		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
-		57D2488A96B6C2D7EA06E445 /* Generics4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D46C4E2196B6243F9FB725DF /* Generics4.cpp */; };
-		589E43759016DA5001DE2CF4 /* mscorlib3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2345BD9FEC3408827167A9 /* mscorlib3.cpp */; };
-		596448488780656911BC1875 /* mscorlib10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B656470CA963AD15A6C7C599 /* mscorlib10.cpp */; };
-		59B84EE9AD5823D11E1917AC /* UnityEngine.InputLegacyModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F42708953B28B470B248C /* UnityEngine.InputLegacyModule.cpp */; };
-		5AB14099B52543CC40DE1B5D /* Il2CppInvokerTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2204438E94B60450456CD872 /* Il2CppInvokerTable.cpp */; };
-		5E134DACAA65D5F7FE098FD3 /* TDSCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A040C9BCC21113222A64E7 /* TDSCommon.framework */; };
-		61AA41B59DC25BAA2278CED6 /* System.Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1691461886566EF31B29A559 /* System.Core.cpp */; };
-		6356461588216F52E81F714A /* UnityEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B44449E9F82FB6C7D63E5 /* UnityEngine.cpp */; };
-		640649C5BADE51ECB9BFEE91 /* Il2CppGenericComDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5DB4531BDE70D67346F2645 /* Il2CppGenericComDefinitions.cpp */; };
-		6772471F9016DD8761B477E5 /* UnityNative.Toasts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F4B39AB194D60292024C4 /* UnityNative.Toasts.cpp */; };
-		69FF484C8AEA4B1CA8E38A5F /* mscorlib11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F3949ECBDCB2AE78CC7E2F1 /* mscorlib11.cpp */; };
-		6AA34ECCA3CC08B084A7692A /* UnityEngine.SharedInternalsModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754C40E3976953728165A32B /* UnityEngine.SharedInternalsModule.cpp */; };
-		6D284E6F84E3237BC4EBC977 /* mscorlib12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4659410EB46E783EA6C9B3BB /* mscorlib12.cpp */; };
-		72534CB8A314ABFF5C690C25 /* UnityNative.Toasts_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = EA374FF6A5E8634E8712EF34 /* UnityNative.Toasts_CodeGen.c */; };
-		727B408581BA589409F694C2 /* System_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = A938435D9AC86ABFB2A6FC22 /* System_CodeGen.c */; };
-		73554652B9E429437064915E /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE446A6A18FBD1A7F633A88 /* IUnityInterface.h */; };
-		7535483A8052A94903055EB3 /* baselib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76664D89AE4236F136F2C70B /* baselib.a */; };
-		78704D2DB0F9806EE6E709BF /* Mono.Security.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C837471791FB0CF4A2AE9FC9 /* Mono.Security.cpp */; };
-		78F24572A0398AC80570D835 /* System.Xml_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 16C64FC7BEE92CA99519050A /* System.Xml_CodeGen.c */; };
-		7D694844A1F474D3840FB553 /* Generics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCC64C268F8857599C99624B /* Generics.cpp */; };
-		7EF5421EAFB23EF5DA6183D1 /* mscorlib_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 66394BE2B39E43A89BC81D27 /* mscorlib_CodeGen.c */; };
-		7F324548B3AC39BE50E0C6D7 /* UnityNativeDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = D1754AB589557782E2BE1F2C /* UnityNativeDialogs.h */; };
+		57544F4180445503C3B991EE /* System.Configuration_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 401E414B8F4869EA60B411B2 /* System.Configuration_CodeGen.c */; };
+		57694A7DB4221F54068F5E73 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D654128821D7076B08646B0 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		57F942F396762705FAAD2BFF /* Il2CppMetadataRegistration.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4779B6DA74BDB5691D10 /* Il2CppMetadataRegistration.c */; };
+		5891469999D76386A6454303 /* Il2CppGenericClassTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A44F2699B3FC1007E69E31 /* Il2CppGenericClassTable.c */; };
+		5C29426CA47E95CA60447ED7 /* Il2CppGenericMethodDefinitions.c in Sources */ = {isa = PBXBuildFile; fileRef = 92A4461FAC612A8ED8EAA675 /* Il2CppGenericMethodDefinitions.c */; };
+		5CE641248DCC90024F4C346E /* UnityEngine.AudioModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4945B5824180124932AE01 /* UnityEngine.AudioModule.cpp */; };
+		608741C19B5DDBD6C5298006 /* mscorlib1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4BB4EEBA35BC86C959A7E8A /* mscorlib1.cpp */; };
+		62094B429616C0F6B8684A52 /* libil2cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A4031B7043895FA56AAB5 /* libil2cpp.a */; };
+		627049A49B6CF4AF4036BC11 /* Il2CppGenericMethodPointerTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D74CFBBD96029F1ECC9A10 /* Il2CppGenericMethodPointerTable.cpp */; };
+		64EF4CB1932264BF895DE04A /* TDSLogin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43249AB867B47F485C9FEC3 /* TDSLogin.cpp */; };
+		6537442D9A07626F6E7A9717 /* Il2CppAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E4ADFA8618B2F913B3EB9 /* Il2CppAttributes.cpp */; };
+		69BB43F38ABE73D478B4F6B2 /* UnityEngine.IMGUIModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F04FF0A5B020E7380057A9 /* UnityEngine.IMGUIModule.cpp */; };
+		6B7A492FB35F4643749F58ED /* UnityEngine.CoreModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6945199717D67CF3728FEC /* UnityEngine.CoreModule.cpp */; };
+		6EEE46D1A7D9497FED8F0DEF /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E823498085E408F36F9F8D20 /* Metal.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6F034E108DCAE82B73F65AC7 /* Il2CppGenericMethodTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A49419893D860E734BF44B1 /* Il2CppGenericMethodTable.c */; };
+		6FFB4F9A82FA85DFB3C6A43D /* TDSMoment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64134BFC806D1BD531563408 /* TDSMoment.cpp */; };
+		765A45DC86C904078A88E842 /* libiPhone-lib.dylib in Copy Shared Libraries */ = {isa = PBXBuildFile; fileRef = 249D4D7699B511B36A27E366 /* libiPhone-lib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		767F43EAA8CE7008783CD509 /* UnityEngine.JSONSerializeModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = FC834D7A82AA10A72BF2B9DD /* UnityEngine.JSONSerializeModule_CodeGen.c */; };
+		7CE840FA9E5E578A23285260 /* UnityEngine.IMGUIModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = CE484547937BC7D4A4902766 /* UnityEngine.IMGUIModule_CodeGen.c */; };
+		7E554D2F8C482495DB1B81D8 /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C484289B3F4CF65A313679B /* System.cpp */; };
+		7E964A0DA994E072B2BC8F9B /* mscorlib9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40A24CC1B288E34C0115CACC /* mscorlib9.cpp */; };
+		838948A990644DDE4FA9FD61 /* UnityEngine.CoreModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = AC3845AC9C3037A0C7A9018D /* UnityEngine.CoreModule_CodeGen.c */; };
+		84B54FE3ADA707710A712B7C /* UnityEngine.SharedInternalsModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 860D4244804D80C88ED27D59 /* UnityEngine.SharedInternalsModule.cpp */; };
+		858847F087F816F59F3B5C18 /* UnityEngine.GameCenterModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 10BA4009BD0CBDA64CD27FD4 /* UnityEngine.GameCenterModule_CodeGen.c */; };
 		862C245020AEC7AC006FB4AD /* UnityWebRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */; };
-		87FD4B1E9F826DE71BF3F7D0 /* System.Xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67A04808A980A4E04C27C3F1 /* System.Xml.cpp */; };
+		86A94DD3BE10FA17E9BAF5AC /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 54054DA7BDC22E716364D4B0 /* IUnityInterface.h */; };
+		87264E11AA5B93A35888041A /* Il2CppCompilerCalculateTypeValuesTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A074BCAA927A709823B4D70 /* Il2CppCompilerCalculateTypeValuesTable.cpp */; };
+		88E641449739928F4841EA6F /* Assembly-CSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E41C48BFB141E452BABAF0B0 /* Assembly-CSharp.cpp */; };
+		894843D2A80FC014F3E3EAAC /* UnityNativeDialogs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43E0415AA39548A415194CD8 /* UnityNativeDialogs.mm */; };
 		8A20382D213D4B3C005E6C56 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20382C213D4B3C005E6C56 /* AVKit.framework */; };
-		8A7140489ED6B6F7217C19CD /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300642239A843B6FB5F5C9D8 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		8EDB4536B073FF685906EB9D /* TDSTapDB_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = F5144D2B803775415C786F07 /* TDSTapDB_CodeGen.c */; };
-		934645078712092A0D433FB8 /* UnityEngine.AudioModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A68495B938E13BDB9F02D2F /* UnityEngine.AudioModule_CodeGen.c */; };
-		9A1E4B2DBE051E1525D2A7D8 /* UnityEngine.AndroidJNIModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A4B29A076A2694F1EF8C1 /* UnityEngine.AndroidJNIModule_CodeGen.c */; };
-		9C6F4BADB6B294E4872F4E83 /* Generics2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12F4763BE0502FFD4FFFB13 /* Generics2.cpp */; };
-		9CF94AD9A7479A4A7A9E1834 /* TDSCommon_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 25694A4488B679EE93AB18DF /* TDSCommon_CodeGen.c */; };
+		8B054B0AB0E0607F4696DC92 /* UnresolvedVirtualCallStubs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54B648308D748B15326BD020 /* UnresolvedVirtualCallStubs.cpp */; };
+		8BAA4489BFB4317CC1C7B556 /* Il2CppCompilerCalculateTypeValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E094A519EC6F81BD2936083 /* Il2CppCompilerCalculateTypeValues.cpp */; };
+		8D494EFC83F0D19CAEAD0066 /* Il2CppGenericInstDefinitions.c in Sources */ = {isa = PBXBuildFile; fileRef = D0BA44279C60753D3D7E6B1A /* Il2CppGenericInstDefinitions.c */; };
+		90BB42EDA284362B33B5A0AC /* System.Configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D04645956D57DCA0F03704 /* System.Configuration.cpp */; };
+		95574EDDA0FC68E7B208254E /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD94C74973FD69DB3BD3531 /* LaunchScreen-iPhone.storyboard */; };
+		981E4B4AB89BFBD19D9C4E68 /* mscorlib_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 008F402B8B72788D74592114 /* mscorlib_CodeGen.c */; };
+		9869426A92BE80C8949BCA9A /* System.Core_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = F54546189C916A63B7304415 /* System.Core_CodeGen.c */; };
+		9A1B42DE8B9E19486E1572EB /* UnityNative_Toasts.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77924229A75183678D812BDD /* UnityNative_Toasts.mm */; };
 		9D0A618B21BFE7F30094DC33 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */; };
 		9D25ABA1213FB47800354C27 /* UnityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D25AB9F213FB47800354C27 /* UnityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D25ABA5213FB47800354C27 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25AB9D213FB47800354C27 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -129,7 +135,6 @@
 		9D25ABE6213FB7C100354C27 /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */; };
 		9D25ABE8213FB7C800354C27 /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */; };
 		9D25ABE9213FB7CC00354C27 /* Il2CppOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03F528621B447098000F4FB8 /* Il2CppOptions.cpp */; };
-		9D3E4DE8BE4E70ACFE5A3389 /* LaunchScreen-iPhonePortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FA4F7797C9B27AE2F1922D /* LaunchScreen-iPhonePortrait.png */; };
 		9D690CCF21BFD341005026B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAD78601F2B5A59006103DE /* Security.framework */; };
 		9D690CD021BFD349005026B1 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960391211D6CE46E003BF157 /* MediaToolbox.framework */; };
 		9D690CD221BFD36C005026B1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D99861AFAD3C800B27605 /* CoreText.framework */; };
@@ -154,48 +159,43 @@
 		9DC67E8821CBBED5005F9FA1 /* RenderPluginDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5C1490174E662D0006EB36 /* RenderPluginDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DC67E8921CBBEDF005F9FA1 /* LifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A292A9717992CE100409BA4 /* LifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DFA7F9D21410F2E00C2880E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
-		A09F4D3F9217C1A2ED90A49D /* mscorlib13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C804503B159DE20E24D5A09 /* mscorlib13.cpp */; };
-		A3A04D6EBE52AA6FCA278110 /* UnityEngine.CoreModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = BD1040E5A463CA54979CBB05 /* UnityEngine.CoreModule_CodeGen.c */; };
-		A52E43BBBEAF809A9378403D /* UnityNative.Toasts.Example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC84A7EBC6685EDE8E4F383 /* UnityNative.Toasts.Example.cpp */; };
-		A54B48D9A975B1F9A4B587E9 /* UnityEngine.GameCenterModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5417414BA0EE04970D9E578C /* UnityEngine.GameCenterModule.cpp */; };
-		A7AA475D8FDC729BB33C494E /* GenericMethods1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40034803B51954060FEC6746 /* GenericMethods1.cpp */; };
-		A89D45A5BCEFC45524401A9B /* Generics1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E944AEB84F8BCB5304B4BD3 /* Generics1.cpp */; };
-		A92846A69F32C0A0083032DA /* Il2CppInteropDataTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3ED434B904C7965743776CF /* Il2CppInteropDataTable.cpp */; };
-		A97245AEAA0C338F9DDF41B8 /* System.Configuration_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = DE43438987ACDC5FBF6C80F3 /* System.Configuration_CodeGen.c */; };
-		AA244605BF004DA900DBC341 /* TapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A684131B28199F8A18BAB9B /* TapSDK.framework */; };
-		AEB54091B9E200B1149C6CFB /* MS.NativeDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 515F47A4922FA5B5254ABC9C /* MS.NativeDialog.cpp */; };
-		B128440AB54D20618157CD8A /* Mono.Security_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 40B44605972EBF6BEB422A11 /* Mono.Security_CodeGen.c */; };
-		B31844608955DAAD161F7CDA /* UnityEngine_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 60E4492FA4CF1245FEA23D12 /* UnityEngine_CodeGen.c */; };
-		B5664FE282AC7A50A0CFB4B1 /* UnityEngine.AndroidJNIModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1942839A1F8221BA18B70B /* UnityEngine.AndroidJNIModule.cpp */; };
-		B5794A3F8373C33507F8601C /* Il2CppGenericClassTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 772745CFAB458282BED353E3 /* Il2CppGenericClassTable.c */; };
-		B6BD4EEB921333E953D9F33E /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CC47C680CC0A6125D0D6EB /* LaunchScreen-iPad.storyboard */; };
-		B7034BFF9AA0E36DF319A517 /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FF46EEB7ACECAF34F7622D /* System.cpp */; };
-		B7CB4123900DE9E2477CABB8 /* Generics3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA084CE3BC33FE97FA700E91 /* Generics3.cpp */; };
-		B979430C8B28CBC92595C971 /* Il2CppCodeRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17054BBC952234EDEB01DC3D /* Il2CppCodeRegistration.cpp */; };
-		BB5A466BAEF7AE0D96E84784 /* UnityNative_Toasts.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2A465AB00661E20F472610 /* UnityNative_Toasts.h */; };
-		BC394CFE946E36F1EDE51258 /* UnityEngine.InputLegacyModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = DF9A40238310F397DD72E57E /* UnityEngine.InputLegacyModule_CodeGen.c */; };
-		BF34468CA1C386EB219CE76C /* mscorlib5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA4130A9D435B5AE81524C /* mscorlib5.cpp */; };
-		BF4B4454AE9F895F806D0049 /* Il2CppGenericMethodDefinitions.c in Sources */ = {isa = PBXBuildFile; fileRef = 27824A658A966223116838FE /* Il2CppGenericMethodDefinitions.c */; };
-		C169487EBA84E63B34F2D695 /* UnityEngine.IMGUIModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E264267A997FF294C514C96 /* UnityEngine.IMGUIModule_CodeGen.c */; };
-		C7854DD0834885DFC64DA5B3 /* mscorlib9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536B4F3AA86D9599EC4B41A5 /* mscorlib9.cpp */; };
-		CAEF4CF88B37CEB997C1FBD5 /* TDSCore_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DD4371A72A77B6DA054956 /* TDSCore_CodeGen.c */; };
-		CC1844BFB40A5037B538DBA0 /* mscorlib4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98A445894560404A988E177 /* mscorlib4.cpp */; };
-		D0494DE0B4A17F8EFDC7D05D /* TDSCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB3646D4A9CA885301B75318 /* TDSCommon.cpp */; };
-		D1B54CAA98C511470F363740 /* Assembly-CSharp_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C34AB0A7AFE16187663D78 /* Assembly-CSharp_CodeGen.c */; };
-		DB154E39872677E7472B6693 /* Il2CppGenericMethodPointerTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F924118B18912122357D187 /* Il2CppGenericMethodPointerTable.cpp */; };
-		DED9417985DBFC8BA290E737 /* libil2cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC042DEBDEFA7AF1B8B8EE3 /* libil2cpp.a */; };
-		E29E405B8DB398857A278F05 /* TDSLogin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64734E2E8456AC1C12F2B225 /* TDSLogin.cpp */; };
-		E3BD4D7E81320492935ACB11 /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1970409D91564B5AA2ADAD24 /* LaunchScreen-iPhone.storyboard */; };
-		E43B4EA294DEA98C62410523 /* DynamicLibEngineAPI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07334B359A1F900E36E33EE7 /* DynamicLibEngineAPI.mm */; };
-		E807475A8576629BEB7FFBBF /* UnityNative.Toasts.Example_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = A55645939F66FDE77E289BF1 /* UnityNative.Toasts.Example_CodeGen.c */; };
-		E98F49B8B6530A286FE72CC6 /* Assembly-CSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC04D6297B35012951E1AA7 /* Assembly-CSharp.cpp */; };
-		EAE943C297E1B2EFEC8268D7 /* UnityEngine.CoreModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 884C42E9A6397597D608C1B3 /* UnityEngine.CoreModule.cpp */; };
-		EC4C4376BCD9DB382BF09AA5 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE3497A90687592A24B9E63 /* Metal.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F6EE4C3FB3506F136018703A /* mscorlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB64F12874488AB8BDFCB02 /* mscorlib.cpp */; };
-		F81946E7ACAEEC95E985A6D9 /* TDSCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301E4F3AB38F176D9E22A1FC /* TDSCore.cpp */; };
-		FD314ADFB8FD8959D8F25E79 /* libiPhone-lib.dylib in Copy Shared Libraries */ = {isa = PBXBuildFile; fileRef = B6BC496F8C0E321218D242B3 /* libiPhone-lib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		FE684DBB9AEE0E96E477ADE5 /* mscorlib2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD14BB3943A12F797672D29 /* mscorlib2.cpp */; };
-		FE80458E944DF0E693F63827 /* Il2CppTypeDefinitions.c in Sources */ = {isa = PBXBuildFile; fileRef = 902649D1B7F2E92E5D1E81F5 /* Il2CppTypeDefinitions.c */; };
+		9F4949C5A63133E110D36594 /* libiPhone-lib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 249D4D7699B511B36A27E366 /* libiPhone-lib.dylib */; };
+		A0D34AE6BDF53CFC6A00548F /* Assembly-CSharp_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E304B0084075160CE583FC5 /* Assembly-CSharp_CodeGen.c */; };
+		A20E4F38912615D116688D04 /* mscorlib4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4494C3FA708E4ACF7E2325B /* mscorlib4.cpp */; };
+		A3B249DD8B393512EA071973 /* UnityEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74794F24A873D243519ABE6C /* UnityEngine.cpp */; };
+		A3D646A3B1A63298E875145A /* TDSCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EA4D77B40DB32CBB47E3DD /* TDSCommon.framework */; };
+		A3DD46088B2F94F75196C253 /* Il2CppInvokerTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 970849C09692A97B4AB737D0 /* Il2CppInvokerTable.cpp */; };
+		AB104416833C61806E2F76B3 /* UnityNative_Toasts.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7343AFB3C33ACCF8E63203 /* UnityNative_Toasts.h */; };
+		AE484DB3B3A11E0F7126D636 /* mscorlib7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A83408392B049955BE82730 /* mscorlib7.cpp */; };
+		B34A4ABAA5B335C8AB985922 /* mscorlib3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1437435D8D8405A9AB7A8D6D /* mscorlib3.cpp */; };
+		B6804F4C945F9CBAEA4556EC /* mscorlib12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4E94B50BC41949982A798F5 /* mscorlib12.cpp */; };
+		BDF54E77A979B24089A319F1 /* UnityNative.Toasts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055A41909CD3D9D245960D97 /* UnityNative.Toasts.cpp */; };
+		BE1E4F5182C2B7CB302BC878 /* TDSMoment_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF4CBD87D190B374F80B77 /* TDSMoment_CodeGen.c */; };
+		C0FF4306A19DC42E7AE9A577 /* TDSLogin_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 344D451BBDB20AD2DB20C45F /* TDSLogin_CodeGen.c */; };
+		C1D04D7395F03F38AA979467 /* UnityEngine_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A5841DD98B3BD6AACD5D243 /* UnityEngine_CodeGen.c */; };
+		C45949B998D36DCC7FB3AF02 /* Generics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE426FBDE1447BDE37A0F0 /* Generics.cpp */; };
+		CD2D44F68DA652222A3B5CA1 /* MS.NativeDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5E40A9B67E7B9EC7CD967B /* MS.NativeDialog.cpp */; };
+		D5F54AF4946BDBC395F0AFB7 /* Il2CppGenericComDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28614495B8C31D203C5C7340 /* Il2CppGenericComDefinitions.cpp */; };
+		D60145068634CEF179A668A8 /* Il2CppMetadataUsage.c in Sources */ = {isa = PBXBuildFile; fileRef = BC6A4156BEF8000C1D5A01F4 /* Il2CppMetadataUsage.c */; };
+		D63B4762B3D84D66204AE76E /* UnityNativeDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E544684BCD49C5C52CE5088 /* UnityNativeDialogs.h */; };
+		D6894DAAA2700253DB0C9861 /* mscorlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78BE40F9B666CBCD138C25C2 /* mscorlib.cpp */; };
+		DA0D485F8C30F85BE6ACD8CD /* System.Xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD2444EB9A73B403B6D9DF9 /* System.Xml.cpp */; };
+		DCA14AEDBB0421808C915047 /* System.Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 929E48E7A08770C6075A57EF /* System.Core.cpp */; };
+		DF8A41B6A573DF35AB195562 /* UnityNative.Toasts_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 81CB4879900FB4F90D44E814 /* UnityNative.Toasts_CodeGen.c */; };
+		E10A4A0BAB54F09B8C2F5A52 /* UnityClassRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD4BD789C44AA87BBE9DAE /* UnityClassRegistration.cpp */; };
+		E7EE4B6AA0699420C70D633B /* Generics1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FB44C8F8CF4C5C9DF63746C /* Generics1.cpp */; };
+		E9624462AF92EEFD001B95BA /* UnityEngine.JSONSerializeModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18984045AA734943DA56974F /* UnityEngine.JSONSerializeModule.cpp */; };
+		EA29410185370924B1F7C3D5 /* mscorlib11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E6340AB85EFF5B1A5C1BC44 /* mscorlib11.cpp */; };
+		EA9248E896D0BEF798E7FB2B /* TDSCore_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 395349F88A6686AB4685C4DF /* TDSCore_CodeGen.c */; };
+		F06E4467965D527DC431DBAF /* System.Xml_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D3545F283F039EE65624C19 /* System.Xml_CodeGen.c */; };
+		F17747A2BC175C052360F301 /* baselib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68904AB682D17E579A9C61DD /* baselib.a */; };
+		F54D4377AAC101C67FE16E5A /* mscorlib14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E439D98CBCF26E6D9BC15 /* mscorlib14.cpp */; };
+		F6824D589DEDEA72EAC0C896 /* Il2CppTypeDefinitions.c in Sources */ = {isa = PBXBuildFile; fileRef = 66AC477B87DB56BB89744996 /* Il2CppTypeDefinitions.c */; };
+		F7254055935C5927A1E95469 /* IUnityGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D84EE0A6119A24EA5D47B7 /* IUnityGraphics.h */; };
+		F7B04FF9B64E36DA60D3B712 /* UnityEngine.GameCenterModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24764630BEF329ED4E78CCBE /* UnityEngine.GameCenterModule.cpp */; };
+		F8604A9981499EF60049BA71 /* mscorlib13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10EE442CA78E9EF99F95E9CB /* mscorlib13.cpp */; };
+		FA3F462AAD0D8EE718EE8D40 /* IUnityGraphicsMetal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15714295A12B79020266C2C2 /* IUnityGraphicsMetal.h */; };
+		FF004B7C899510537BC6D421 /* Mono.Security.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E42C4964A424115B3942D8BC /* Mono.Security.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,17 +216,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		122D439DBD898BDAF3641151 /* Copy Shared Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 6;
-			files = (
-				FD314ADFB8FD8959D8F25E79 /* libiPhone-lib.dylib in Copy Shared Libraries */,
-			);
-			name = "Copy Shared Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83D0C1FD0E6C8D7700EBCE5D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,51 +236,72 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E61401B99B840A16DA59DDA /* Copy Shared Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				765A45DC86C904078A88E842 /* libiPhone-lib.dylib in Copy Shared Libraries */,
+			);
+			name = "Copy Shared Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		008F402B8B72788D74592114 /* mscorlib_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mscorlib_CodeGen.c; path = Classes/Native/mscorlib_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		03F528621B447098000F4FB8 /* Il2CppOptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Il2CppOptions.cpp; sourceTree = "<group>"; };
-		06DD4371A72A77B6DA054956 /* TDSCore_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSCore_CodeGen.c; path = Classes/Native/TDSCore_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		07334B359A1F900E36E33EE7 /* DynamicLibEngineAPI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DynamicLibEngineAPI.mm; path = Classes/DynamicLibEngineAPI.mm; sourceTree = SOURCE_ROOT; };
-		0A68495B938E13BDB9F02D2F /* UnityEngine.AudioModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AudioModule_CodeGen.c; path = Classes/Native/UnityEngine.AudioModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		0C1942839A1F8221BA18B70B /* UnityEngine.AndroidJNIModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AndroidJNIModule.cpp; path = Classes/Native/UnityEngine.AndroidJNIModule.cpp; sourceTree = SOURCE_ROOT; };
-		0C804503B159DE20E24D5A09 /* mscorlib13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib13.cpp; path = Classes/Native/mscorlib13.cpp; sourceTree = SOURCE_ROOT; };
-		0D7F4B39AB194D60292024C4 /* UnityNative.Toasts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityNative.Toasts.cpp; path = Classes/Native/UnityNative.Toasts.cpp; sourceTree = SOURCE_ROOT; };
-		1691461886566EF31B29A559 /* System.Core.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Core.cpp; path = Classes/Native/System.Core.cpp; sourceTree = SOURCE_ROOT; };
-		16C64FC7BEE92CA99519050A /* System.Xml_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Xml_CodeGen.c; path = Classes/Native/System.Xml_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		17054BBC952234EDEB01DC3D /* Il2CppCodeRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCodeRegistration.cpp; path = Classes/Native/Il2CppCodeRegistration.cpp; sourceTree = SOURCE_ROOT; };
-		172348B28DCC88E9BC3858B3 /* TDSLogin_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSLogin_CodeGen.c; path = Classes/Native/TDSLogin_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		17A040C9BCC21113222A64E7 /* TDSCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TDSCommon.framework; path = Frameworks/com.tds.sdk/Plugins/IOS/TDSCommon.framework; sourceTree = SOURCE_ROOT; };
+		043A4031B7043895FA56AAB5 /* libil2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libil2cpp.a; path = Libraries/libil2cpp.a; sourceTree = SOURCE_ROOT; };
+		055A41909CD3D9D245960D97 /* UnityNative.Toasts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityNative.Toasts.cpp; path = Classes/Native/UnityNative.Toasts.cpp; sourceTree = SOURCE_ROOT; };
+		0A4945B5824180124932AE01 /* UnityEngine.AudioModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AudioModule.cpp; path = Classes/Native/UnityEngine.AudioModule.cpp; sourceTree = SOURCE_ROOT; };
+		0A5E439D98CBCF26E6D9BC15 /* mscorlib14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib14.cpp; path = Classes/Native/mscorlib14.cpp; sourceTree = SOURCE_ROOT; };
+		0B6945199717D67CF3728FEC /* UnityEngine.CoreModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.CoreModule.cpp; path = Classes/Native/UnityEngine.CoreModule.cpp; sourceTree = SOURCE_ROOT; };
+		0B6F46328786CF638456B35A /* mscorlib15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib15.cpp; path = Classes/Native/mscorlib15.cpp; sourceTree = SOURCE_ROOT; };
+		0D5E4ADFA8618B2F913B3EB9 /* Il2CppAttributes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppAttributes.cpp; path = Classes/Native/Il2CppAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		0D654128821D7076B08646B0 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		0DDC40A982A206DCC8A4C7A8 /* Il2CppInteropDataTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppInteropDataTable.cpp; path = Classes/Native/Il2CppInteropDataTable.cpp; sourceTree = SOURCE_ROOT; };
+		10BA4009BD0CBDA64CD27FD4 /* UnityEngine.GameCenterModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.GameCenterModule_CodeGen.c; path = Classes/Native/UnityEngine.GameCenterModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		10EE442CA78E9EF99F95E9CB /* mscorlib13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib13.cpp; path = Classes/Native/mscorlib13.cpp; sourceTree = SOURCE_ROOT; };
+		1437435D8D8405A9AB7A8D6D /* mscorlib3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib3.cpp; path = Classes/Native/mscorlib3.cpp; sourceTree = SOURCE_ROOT; };
+		151345AF83374CDF4306BF4D /* profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = profile.json; path = Classes/Native/profile.json; sourceTree = SOURCE_ROOT; };
+		15714295A12B79020266C2C2 /* IUnityGraphicsMetal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsMetal.h; path = Classes/Unity/IUnityGraphicsMetal.h; sourceTree = SOURCE_ROOT; };
+		16434296AA26D8B7D69FA956 /* TDSTapDB_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSTapDB_CodeGen.c; path = Classes/Native/TDSTapDB_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		17854A4CA4992E406629433D /* mscorlib5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib5.cpp; path = Classes/Native/mscorlib5.cpp; sourceTree = SOURCE_ROOT; };
 		1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalHelper.mm; sourceTree = "<group>"; };
-		191B4FA587CE9DC3FEAF4E10 /* TDSTapDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSTapDB.cpp; path = Classes/Native/TDSTapDB.cpp; sourceTree = SOURCE_ROOT; };
-		1970409D91564B5AA2ADAD24 /* LaunchScreen-iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
-		1A684131B28199F8A18BAB9B /* TapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapSDK.framework; path = Frameworks/com.tds.sdk/Plugins/IOS/TapSDK.framework; sourceTree = SOURCE_ROOT; };
-		1C634EA1B6539864D72903F8 /* Il2CppCompilerCalculateTypeValuesTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValuesTable.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValuesTable.cpp; sourceTree = SOURCE_ROOT; };
+		18984045AA734943DA56974F /* UnityEngine.JSONSerializeModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.JSONSerializeModule.cpp; path = Classes/Native/UnityEngine.JSONSerializeModule.cpp; sourceTree = SOURCE_ROOT; };
+		192C4B2B905E3A72DBEAC753 /* mscorlib10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib10.cpp; path = Classes/Native/mscorlib10.cpp; sourceTree = SOURCE_ROOT; };
+		1C9C4F1B8A5C52FBCD48D367 /* UnityEngine.InputLegacyModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.InputLegacyModule_CodeGen.c; path = Classes/Native/UnityEngine.InputLegacyModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E9C4A8CA165DCB08489A31F /* UnityEngine.CoreModule1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.CoreModule1.cpp; path = Classes/Native/UnityEngine.CoreModule1.cpp; sourceTree = SOURCE_ROOT; };
-		1FC54CFFB0A546FE1D487289 /* mscorlib15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib15.cpp; path = Classes/Native/mscorlib15.cpp; sourceTree = SOURCE_ROOT; };
-		20E641FA955F169A77A4BA58 /* UnityNative_Toasts.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityNative_Toasts.mm; path = Libraries/com.unitynative.toasts/Plugins/iOS/UnityNative_Toasts.mm; sourceTree = SOURCE_ROOT; };
-		210C45259AA101BA8A294E51 /* UnityClassRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityClassRegistration.cpp; path = Classes/Native/UnityClassRegistration.cpp; sourceTree = SOURCE_ROOT; };
-		2204438E94B60450456CD872 /* Il2CppInvokerTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppInvokerTable.cpp; path = Classes/Native/Il2CppInvokerTable.cpp; sourceTree = SOURCE_ROOT; };
-		25694A4488B679EE93AB18DF /* TDSCommon_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSCommon_CodeGen.c; path = Classes/Native/TDSCommon_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		27824A658A966223116838FE /* Il2CppGenericMethodDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericMethodDefinitions.c; path = Classes/Native/Il2CppGenericMethodDefinitions.c; sourceTree = SOURCE_ROOT; };
-		2CD14BB3943A12F797672D29 /* mscorlib2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib2.cpp; path = Classes/Native/mscorlib2.cpp; sourceTree = SOURCE_ROOT; };
-		2E944AEB84F8BCB5304B4BD3 /* Generics1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics1.cpp; path = Classes/Native/Generics1.cpp; sourceTree = SOURCE_ROOT; };
-		300642239A843B6FB5F5C9D8 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		301E4F3AB38F176D9E22A1FC /* TDSCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSCore.cpp; path = Classes/Native/TDSCore.cpp; sourceTree = SOURCE_ROOT; };
-		3B0149909C20CC8297A07BF6 /* Il2CppGenericMethodTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericMethodTable.c; path = Classes/Native/Il2CppGenericMethodTable.c; sourceTree = SOURCE_ROOT; };
-		3B8F42708953B28B470B248C /* UnityEngine.InputLegacyModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.InputLegacyModule.cpp; path = Classes/Native/UnityEngine.InputLegacyModule.cpp; sourceTree = SOURCE_ROOT; };
-		3DC042DEBDEFA7AF1B8B8EE3 /* libil2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libil2cpp.a; path = Libraries/libil2cpp.a; sourceTree = SOURCE_ROOT; };
-		40034803B51954060FEC6746 /* GenericMethods1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods1.cpp; path = Classes/Native/GenericMethods1.cpp; sourceTree = SOURCE_ROOT; };
-		40B44605972EBF6BEB422A11 /* Mono.Security_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Mono.Security_CodeGen.c; path = Classes/Native/Mono.Security_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		439C405AAD4F38D098768AB6 /* mscorlib7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib7.cpp; path = Classes/Native/mscorlib7.cpp; sourceTree = SOURCE_ROOT; };
-		4659410EB46E783EA6C9B3BB /* mscorlib12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib12.cpp; path = Classes/Native/mscorlib12.cpp; sourceTree = SOURCE_ROOT; };
+		1E094A519EC6F81BD2936083 /* Il2CppCompilerCalculateTypeValues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues.cpp; sourceTree = SOURCE_ROOT; };
+		1FB44C8F8CF4C5C9DF63746C /* Generics1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics1.cpp; path = Classes/Native/Generics1.cpp; sourceTree = SOURCE_ROOT; };
+		23F04FF0A5B020E7380057A9 /* UnityEngine.IMGUIModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.IMGUIModule.cpp; path = Classes/Native/UnityEngine.IMGUIModule.cpp; sourceTree = SOURCE_ROOT; };
+		24764630BEF329ED4E78CCBE /* UnityEngine.GameCenterModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.GameCenterModule.cpp; path = Classes/Native/UnityEngine.GameCenterModule.cpp; sourceTree = SOURCE_ROOT; };
+		249D4D7699B511B36A27E366 /* libiPhone-lib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libiPhone-lib.dylib"; path = "Libraries/libiPhone-lib.dylib"; sourceTree = SOURCE_ROOT; };
+		25D543B586084BEE288E7CB7 /* UnityEngine.TextRenderingModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.TextRenderingModule_CodeGen.c; path = Classes/Native/UnityEngine.TextRenderingModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		28614495B8C31D203C5C7340 /* Il2CppGenericComDefinitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericComDefinitions.cpp; path = Classes/Native/Il2CppGenericComDefinitions.cpp; sourceTree = SOURCE_ROOT; };
+		2A074BCAA927A709823B4D70 /* Il2CppCompilerCalculateTypeValuesTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValuesTable.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValuesTable.cpp; sourceTree = SOURCE_ROOT; };
+		2A83408392B049955BE82730 /* mscorlib7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib7.cpp; path = Classes/Native/mscorlib7.cpp; sourceTree = SOURCE_ROOT; };
+		2AD04814BC71A6DBB41C8158 /* LaunchScreen-iPhoneLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPhoneLandscape.png"; sourceTree = SOURCE_ROOT; };
+		2BDE426FBDE1447BDE37A0F0 /* Generics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics.cpp; path = Classes/Native/Generics.cpp; sourceTree = SOURCE_ROOT; };
+		2CD94C74973FD69DB3BD3531 /* LaunchScreen-iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
+		2E304B0084075160CE583FC5 /* Assembly-CSharp_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "Assembly-CSharp_CodeGen.c"; path = "Classes/Native/Assembly-CSharp_CodeGen.c"; sourceTree = SOURCE_ROOT; };
+		344D451BBDB20AD2DB20C45F /* TDSLogin_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSLogin_CodeGen.c; path = Classes/Native/TDSLogin_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		361748A081C41B5F698020BF /* TDSCommon_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSCommon_CodeGen.c; path = Classes/Native/TDSCommon_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		37A44F2699B3FC1007E69E31 /* Il2CppGenericClassTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericClassTable.c; path = Classes/Native/Il2CppGenericClassTable.c; sourceTree = SOURCE_ROOT; };
+		395349F88A6686AB4685C4DF /* TDSCore_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSCore_CodeGen.c; path = Classes/Native/TDSCore_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		3AFD4BD789C44AA87BBE9DAE /* UnityClassRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityClassRegistration.cpp; path = Classes/Native/UnityClassRegistration.cpp; sourceTree = SOURCE_ROOT; };
+		3D284D4BAD317719E2145004 /* UnityEngine.AndroidJNIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AndroidJNIModule_CodeGen.c; path = Classes/Native/UnityEngine.AndroidJNIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		3D3545F283F039EE65624C19 /* System.Xml_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Xml_CodeGen.c; path = Classes/Native/System.Xml_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		401E414B8F4869EA60B411B2 /* System.Configuration_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Configuration_CodeGen.c; path = Classes/Native/System.Configuration_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		40A24CC1B288E34C0115CACC /* mscorlib9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib9.cpp; path = Classes/Native/mscorlib9.cpp; sourceTree = SOURCE_ROOT; };
+		435A4E3C81458655B6A62BC3 /* UnityNative.Toasts.Example_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityNative.Toasts.Example_CodeGen.c; path = Classes/Native/UnityNative.Toasts.Example_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		43E0415AA39548A415194CD8 /* UnityNativeDialogs.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityNativeDialogs.mm; path = Libraries/com.ms.nativedialog/Runtime/iOS/UnityNativeDialogs.mm; sourceTree = SOURCE_ROOT; };
 		4E090A331F27884B0077B28D /* StoreReview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreReview.m; sourceTree = "<group>"; };
-		515F47A4922FA5B5254ABC9C /* MS.NativeDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MS.NativeDialog.cpp; path = Classes/Native/MS.NativeDialog.cpp; sourceTree = SOURCE_ROOT; };
-		51CC47C680CC0A6125D0D6EB /* LaunchScreen-iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
-		536B4F3AA86D9599EC4B41A5 /* mscorlib9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib9.cpp; path = Classes/Native/mscorlib9.cpp; sourceTree = SOURCE_ROOT; };
-		5417414BA0EE04970D9E578C /* UnityEngine.GameCenterModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.GameCenterModule.cpp; path = Classes/Native/UnityEngine.GameCenterModule.cpp; sourceTree = SOURCE_ROOT; };
+		54054DA7BDC22E716364D4B0 /* IUnityInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityInterface.h; path = Classes/Unity/IUnityInterface.h; sourceTree = SOURCE_ROOT; };
+		5435426E944F95E4EF2E213C /* TDSCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSCore.cpp; path = Classes/Native/TDSCore.cpp; sourceTree = SOURCE_ROOT; };
+		54B648308D748B15326BD020 /* UnresolvedVirtualCallStubs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnresolvedVirtualCallStubs.cpp; path = Classes/Native/UnresolvedVirtualCallStubs.cpp; sourceTree = SOURCE_ROOT; };
 		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity-iPhone Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5623C57A17FDCB0900090B9E /* Unity-iPhone Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity-iPhone Tests-Info.plist"; sourceTree = "<group>"; };
 		5623C57C17FDCB0900090B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -305,45 +315,43 @@
 		56DBF99C15E3CDC9007A4A8D /* iPhone_Sensors.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iPhone_Sensors.mm; sourceTree = "<group>"; };
 		56DBF99E15E3CE85007A4A8D /* iPhone_Sensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_Sensors.h; sourceTree = "<group>"; };
 		56FD43950ED4745200FE3770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		5AA34BBDB48746F97961D36E /* UnityEngine.SharedInternalsModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.SharedInternalsModule_CodeGen.c; path = Classes/Native/UnityEngine.SharedInternalsModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		57924F8590AF58250B3B3D2D /* UnityEngine.AudioModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AudioModule_CodeGen.c; path = Classes/Native/UnityEngine.AudioModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		57D945519EFB2C37A28E65B1 /* Generics2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics2.cpp; path = Classes/Native/Generics2.cpp; sourceTree = SOURCE_ROOT; };
+		59DC4831B76C24E1242E954F /* TapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapSDK.framework; path = Frameworks/com.tds.sdk/Plugins/IOS/TapSDK.framework; sourceTree = SOURCE_ROOT; };
+		5A5841DD98B3BD6AACD5D243 /* UnityEngine_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine_CodeGen.c; path = Classes/Native/UnityEngine_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		5BAD78601F2B5A59006103DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		5EC04D6297B35012951E1AA7 /* Assembly-CSharp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp.cpp"; path = "Classes/Native/Assembly-CSharp.cpp"; sourceTree = SOURCE_ROOT; };
-		5F3949ECBDCB2AE78CC7E2F1 /* mscorlib11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib11.cpp; path = Classes/Native/mscorlib11.cpp; sourceTree = SOURCE_ROOT; };
-		5F924118B18912122357D187 /* Il2CppGenericMethodPointerTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericMethodPointerTable.cpp; path = Classes/Native/Il2CppGenericMethodPointerTable.cpp; sourceTree = SOURCE_ROOT; };
-		60D141B59D6B82DB172A921C /* mscorlib8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib8.cpp; path = Classes/Native/mscorlib8.cpp; sourceTree = SOURCE_ROOT; };
-		60E4492FA4CF1245FEA23D12 /* UnityEngine_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine_CodeGen.c; path = Classes/Native/UnityEngine_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		63E3474FB9DC854C67B46952 /* Il2CppAttributes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppAttributes.cpp; path = Classes/Native/Il2CppAttributes.cpp; sourceTree = SOURCE_ROOT; };
-		64734E2E8456AC1C12F2B225 /* TDSLogin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSLogin.cpp; path = Classes/Native/TDSLogin.cpp; sourceTree = SOURCE_ROOT; };
-		66394BE2B39E43A89BC81D27 /* mscorlib_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mscorlib_CodeGen.c; path = Classes/Native/mscorlib_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		67A04808A980A4E04C27C3F1 /* System.Xml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml.cpp; path = Classes/Native/System.Xml.cpp; sourceTree = SOURCE_ROOT; };
-		698A492CB8C439D4627E559E /* GenericMethods.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods.cpp; path = Classes/Native/GenericMethods.cpp; sourceTree = SOURCE_ROOT; };
-		69E54A8682FB07F2FF874D2D /* UnityNativeDialogs.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityNativeDialogs.mm; path = Libraries/com.ms.nativedialog/Runtime/iOS/UnityNativeDialogs.mm; sourceTree = SOURCE_ROOT; };
-		6A7542D685FF83067DEBBEEA /* UnityEngine.TextRenderingModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.TextRenderingModule_CodeGen.c; path = Classes/Native/UnityEngine.TextRenderingModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		6D2345BD9FEC3408827167A9 /* mscorlib3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib3.cpp; path = Classes/Native/mscorlib3.cpp; sourceTree = SOURCE_ROOT; };
-		6D794FFB8ED47F3B721988D3 /* Il2CppReversePInvokeWrapperTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppReversePInvokeWrapperTable.cpp; path = Classes/Native/Il2CppReversePInvokeWrapperTable.cpp; sourceTree = SOURCE_ROOT; };
-		6E2A465AB00661E20F472610 /* UnityNative_Toasts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityNative_Toasts.h; path = Libraries/com.unitynative.toasts/Plugins/iOS/UnityNative_Toasts.h; sourceTree = SOURCE_ROOT; };
-		754C40E3976953728165A32B /* UnityEngine.SharedInternalsModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.SharedInternalsModule.cpp; path = Classes/Native/UnityEngine.SharedInternalsModule.cpp; sourceTree = SOURCE_ROOT; };
-		76664D89AE4236F136F2C70B /* baselib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = baselib.a; path = Libraries/baselib.a; sourceTree = SOURCE_ROOT; };
-		768B4125AE2C20BFE8AA472D /* System.Configuration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Configuration.cpp; path = Classes/Native/System.Configuration.cpp; sourceTree = SOURCE_ROOT; };
-		772745CFAB458282BED353E3 /* Il2CppGenericClassTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericClassTable.c; path = Classes/Native/Il2CppGenericClassTable.c; sourceTree = SOURCE_ROOT; };
-		7A304EE6AE8DE92119D3B918 /* TDSMoment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSMoment.cpp; path = Classes/Native/TDSMoment.cpp; sourceTree = SOURCE_ROOT; };
+		5C484289B3F4CF65A313679B /* System.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.cpp; path = Classes/Native/System.cpp; sourceTree = SOURCE_ROOT; };
+		5E6340AB85EFF5B1A5C1BC44 /* mscorlib11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib11.cpp; path = Classes/Native/mscorlib11.cpp; sourceTree = SOURCE_ROOT; };
+		603B4669ACD0606B4B3E6234 /* Generics4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics4.cpp; path = Classes/Native/Generics4.cpp; sourceTree = SOURCE_ROOT; };
+		64134BFC806D1BD531563408 /* TDSMoment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSMoment.cpp; path = Classes/Native/TDSMoment.cpp; sourceTree = SOURCE_ROOT; };
+		66AC477B87DB56BB89744996 /* Il2CppTypeDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppTypeDefinitions.c; path = Classes/Native/Il2CppTypeDefinitions.c; sourceTree = SOURCE_ROOT; };
+		68904AB682D17E579A9C61DD /* baselib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = baselib.a; path = Libraries/baselib.a; sourceTree = SOURCE_ROOT; };
+		6EFC4779B6DA74BDB5691D10 /* Il2CppMetadataRegistration.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppMetadataRegistration.c; path = Classes/Native/Il2CppMetadataRegistration.c; sourceTree = SOURCE_ROOT; };
+		70EA4D77B40DB32CBB47E3DD /* TDSCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TDSCommon.framework; path = Frameworks/com.tds.sdk/Plugins/IOS/TDSCommon.framework; sourceTree = SOURCE_ROOT; };
+		72DE40BF9EB7B67E15A70523 /* mscorlib8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib8.cpp; path = Classes/Native/mscorlib8.cpp; sourceTree = SOURCE_ROOT; };
+		745E40E79B1ECA6E1740F9AD /* Il2CppReversePInvokeWrapperTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppReversePInvokeWrapperTable.cpp; path = Classes/Native/Il2CppReversePInvokeWrapperTable.cpp; sourceTree = SOURCE_ROOT; };
+		74794F24A873D243519ABE6C /* UnityEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.cpp; path = Classes/Native/UnityEngine.cpp; sourceTree = SOURCE_ROOT; };
+		77924229A75183678D812BDD /* UnityNative_Toasts.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityNative_Toasts.mm; path = Libraries/com.unitynative.toasts/Plugins/iOS/UnityNative_Toasts.mm; sourceTree = SOURCE_ROOT; };
+		78BE40F9B666CBCD138C25C2 /* mscorlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib.cpp; path = Classes/Native/mscorlib.cpp; sourceTree = SOURCE_ROOT; };
+		79224E2EBE43E0FD32C4105C /* Mono.Security_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Mono.Security_CodeGen.c; path = Classes/Native/Mono.Security_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		7CAF4CBD87D190B374F80B77 /* TDSMoment_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSMoment_CodeGen.c; path = Classes/Native/TDSMoment_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		7F36C10E13C5C673007FBDD9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7F36C10F13C5C673007FBDD9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		7F36C11013C5C673007FBDD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		7F7D4076B741504BDC0134A8 /* UnityEngine.IMGUIModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.IMGUIModule.cpp; path = Classes/Native/UnityEngine.IMGUIModule.cpp; sourceTree = SOURCE_ROOT; };
+		81CB4879900FB4F90D44E814 /* UnityNative.Toasts_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityNative.Toasts_CodeGen.c; path = Classes/Native/UnityNative.Toasts_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		830B5C100E5ED4C100C7819F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8358D1B70ED1CC3700E3A684 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		83B256E10E62FEA000468741 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		83B2570A0E62FF8A00468741 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		83B2574B0E63022200468741 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		848031E01C5160D700FCEAB7 /* UnityReplayKit_Scripting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityReplayKit_Scripting.mm; sourceTree = "<group>"; };
+		84A44575B592B34AD1420D77 /* UnityEngine.SharedInternalsModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.SharedInternalsModule_CodeGen.c; path = Classes/Native/UnityEngine.SharedInternalsModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		84DC28F51C5137FE00BC67D7 /* UnityReplayKit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityReplayKit.mm; sourceTree = "<group>"; };
 		84DC28F71C51383500BC67D7 /* UnityReplayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityReplayKit.h; sourceTree = "<group>"; };
 		85E5623620F4F4D1001DFEF6 /* UnityView+Keyboard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UnityView+Keyboard.mm"; sourceTree = "<group>"; };
+		860D4244804D80C88ED27D59 /* UnityEngine.SharedInternalsModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.SharedInternalsModule.cpp; path = Classes/Native/UnityEngine.SharedInternalsModule.cpp; sourceTree = SOURCE_ROOT; };
 		862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityWebRequest.mm; sourceTree = "<group>"; };
-		86FA4F7797C9B27AE2F1922D /* LaunchScreen-iPhonePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPhonePortrait.png"; sourceTree = SOURCE_ROOT; };
-		884C42E9A6397597D608C1B3 /* UnityEngine.CoreModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.CoreModule.cpp; path = Classes/Native/UnityEngine.CoreModule.cpp; sourceTree = SOURCE_ROOT; };
-		885649FA8AA0AB33D38C443A /* UnityEngine.JSONSerializeModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.JSONSerializeModule_CodeGen.c; path = Classes/Native/UnityEngine.JSONSerializeModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		87FE4105A90CEA3E00E5463C /* GenericMethods.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods.cpp; path = Classes/Native/GenericMethods.cpp; sourceTree = SOURCE_ROOT; };
 		8A0FED471649699200E9727D /* EAGLContextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLContextHelper.h; sourceTree = "<group>"; };
 		8A0FED481649699200E9727D /* EAGLContextHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLContextHelper.mm; sourceTree = "<group>"; };
 		8A142DC41636943E00DD87CA /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
@@ -408,19 +416,16 @@
 		8AECDC781950835600CB29E8 /* UnityMetalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityMetalSupport.h; sourceTree = "<group>"; };
 		8AF7755E17997D1300341121 /* AppDelegateListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateListener.h; sourceTree = "<group>"; };
 		8AF7755F17997D1300341121 /* AppDelegateListener.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateListener.mm; sourceTree = "<group>"; };
-		8B2849B38DF86C2B832EE8A4 /* Il2CppMetadataUsage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppMetadataUsage.c; path = Classes/Native/Il2CppMetadataUsage.c; sourceTree = SOURCE_ROOT; };
-		8BB64F12874488AB8BDFCB02 /* mscorlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib.cpp; path = Classes/Native/mscorlib.cpp; sourceTree = SOURCE_ROOT; };
-		8C4D4F01839C0D2452F267FD /* MS.NativeDialog_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = MS.NativeDialog_CodeGen.c; path = Classes/Native/MS.NativeDialog_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E264267A997FF294C514C96 /* UnityEngine.IMGUIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.IMGUIModule_CodeGen.c; path = Classes/Native/UnityEngine.IMGUIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		8EFA4130A9D435B5AE81524C /* mscorlib5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib5.cpp; path = Classes/Native/mscorlib5.cpp; sourceTree = SOURCE_ROOT; };
-		8F9A4B29A076A2694F1EF8C1 /* UnityEngine.AndroidJNIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AndroidJNIModule_CodeGen.c; path = Classes/Native/UnityEngine.AndroidJNIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		8FE3497A90687592A24B9E63 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		902649D1B7F2E92E5D1E81F5 /* Il2CppTypeDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppTypeDefinitions.c; path = Classes/Native/Il2CppTypeDefinitions.c; sourceTree = SOURCE_ROOT; };
-		93D6415BBD13A06E51F3F70F /* Il2CppMetadataRegistration.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppMetadataRegistration.c; path = Classes/Native/Il2CppMetadataRegistration.c; sourceTree = SOURCE_ROOT; };
+		929E48E7A08770C6075A57EF /* System.Core.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Core.cpp; path = Classes/Native/System.Core.cpp; sourceTree = SOURCE_ROOT; };
+		92A4461FAC612A8ED8EAA675 /* Il2CppGenericMethodDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericMethodDefinitions.c; path = Classes/Native/Il2CppGenericMethodDefinitions.c; sourceTree = SOURCE_ROOT; };
+		93124539A8487F3152BA60D5 /* Il2CppCodeRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCodeRegistration.cpp; path = Classes/Native/Il2CppCodeRegistration.cpp; sourceTree = SOURCE_ROOT; };
+		955949D19B42D8AF2D2CDD51 /* TDSTapDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSTapDB.cpp; path = Classes/Native/TDSTapDB.cpp; sourceTree = SOURCE_ROOT; };
+		956B45F79C85A99AF4E8C20C /* GenericMethods1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods1.cpp; path = Classes/Native/GenericMethods1.cpp; sourceTree = SOURCE_ROOT; };
 		960391211D6CE46E003BF157 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
-		96F24B549A7049A5E5E23B7F /* LaunchScreen-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPad.png"; sourceTree = SOURCE_ROOT; };
-		974E46CA9E94C2717445AE55 /* UnityEngine.GameCenterModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.GameCenterModule_CodeGen.c; path = Classes/Native/UnityEngine.GameCenterModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		970849C09692A97B4AB737D0 /* Il2CppInvokerTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppInvokerTable.cpp; path = Classes/Native/Il2CppInvokerTable.cpp; sourceTree = SOURCE_ROOT; };
+		98D74CFBBD96029F1ECC9A10 /* Il2CppGenericMethodPointerTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericMethodPointerTable.cpp; path = Classes/Native/Il2CppGenericMethodPointerTable.cpp; sourceTree = SOURCE_ROOT; };
+		9A49419893D860E734BF44B1 /* Il2CppGenericMethodTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericMethodTable.c; path = Classes/Native/Il2CppGenericMethodTable.c; sourceTree = SOURCE_ROOT; };
 		9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
 		9D16CD8021C938B300DD46C0 /* UndefinePlatforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndefinePlatforms.h; sourceTree = "<group>"; };
 		9D16CD8121C938BB00DD46C0 /* RedefinePlatforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedefinePlatforms.h; sourceTree = "<group>"; };
@@ -428,59 +433,54 @@
 		9D25AB9F213FB47800354C27 /* UnityFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityFramework.h; sourceTree = "<group>"; };
 		9D25ABA0213FB47800354C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA3B0432174CB96001678C7 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		9F9B44449E9F82FB6C7D63E5 /* UnityEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.cpp; path = Classes/Native/UnityEngine.cpp; sourceTree = SOURCE_ROOT; };
-		A47B42AA81A284A4DF1DF967 /* System.Core_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Core_CodeGen.c; path = Classes/Native/System.Core_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		A55645939F66FDE77E289BF1 /* UnityNative.Toasts.Example_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityNative.Toasts.Example_CodeGen.c; path = Classes/Native/UnityNative.Toasts.Example_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		A7C34AB0A7AFE16187663D78 /* Assembly-CSharp_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "Assembly-CSharp_CodeGen.c"; path = "Classes/Native/Assembly-CSharp_CodeGen.c"; sourceTree = SOURCE_ROOT; };
-		A938435D9AC86ABFB2A6FC22 /* System_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System_CodeGen.c; path = Classes/Native/System_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		9E544684BCD49C5C52CE5088 /* UnityNativeDialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityNativeDialogs.h; path = Libraries/com.ms.nativedialog/Runtime/iOS/UnityNativeDialogs.h; sourceTree = SOURCE_ROOT; };
+		A4E94B50BC41949982A798F5 /* mscorlib12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib12.cpp; path = Classes/Native/mscorlib12.cpp; sourceTree = SOURCE_ROOT; };
+		A4E94F108F9C95166E2622FD /* LaunchScreen-iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
+		A9044366B97B19FACF5849AE /* UnityEngine.AndroidJNIModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AndroidJNIModule.cpp; path = Classes/Native/UnityEngine.AndroidJNIModule.cpp; sourceTree = SOURCE_ROOT; };
 		AA31BF961B55660D0013FB1B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		AA5D99861AFAD3C800B27605 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		AAAA4AAA89B8B06A6B845C07 /* IUnityGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityGraphics.h; path = Classes/Unity/IUnityGraphics.h; sourceTree = SOURCE_ROOT; };
 		AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		AAFE69D019F187C200638316 /* UnityViewControllerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityViewControllerListener.h; sourceTree = "<group>"; };
 		AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityViewControllerListener.mm; sourceTree = "<group>"; };
-		AB564217B094D3040992C3F6 /* IUnityGraphicsMetal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityGraphicsMetal.h; path = Classes/Unity/IUnityGraphicsMetal.h; sourceTree = SOURCE_ROOT; };
-		ABC84A7EBC6685EDE8E4F383 /* UnityNative.Toasts.Example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityNative.Toasts.Example.cpp; path = Classes/Native/UnityNative.Toasts.Example.cpp; sourceTree = SOURCE_ROOT; };
-		B1EC4E65A52CBFE828BA1676 /* System1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System1.cpp; path = Classes/Native/System1.cpp; sourceTree = SOURCE_ROOT; };
-		B656470CA963AD15A6C7C599 /* mscorlib10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib10.cpp; path = Classes/Native/mscorlib10.cpp; sourceTree = SOURCE_ROOT; };
-		B6BC496F8C0E321218D242B3 /* libiPhone-lib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libiPhone-lib.dylib"; path = "Libraries/libiPhone-lib.dylib"; sourceTree = SOURCE_ROOT; };
-		B9FF46EEB7ACECAF34F7622D /* System.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.cpp; path = Classes/Native/System.cpp; sourceTree = SOURCE_ROOT; };
-		BBE446A6A18FBD1A7F633A88 /* IUnityInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityInterface.h; path = Classes/Unity/IUnityInterface.h; sourceTree = SOURCE_ROOT; };
-		BCC64C268F8857599C99624B /* Generics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics.cpp; path = Classes/Native/Generics.cpp; sourceTree = SOURCE_ROOT; };
-		BD1040E5A463CA54979CBB05 /* UnityEngine.CoreModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.CoreModule_CodeGen.c; path = Classes/Native/UnityEngine.CoreModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		BE334CBEBBFF70270FF403E1 /* mscorlib14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib14.cpp; path = Classes/Native/mscorlib14.cpp; sourceTree = SOURCE_ROOT; };
-		C3ED434B904C7965743776CF /* Il2CppInteropDataTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppInteropDataTable.cpp; path = Classes/Native/Il2CppInteropDataTable.cpp; sourceTree = SOURCE_ROOT; };
-		C7344A51954E9F5701D29E33 /* Il2CppCompilerCalculateTypeValues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues.cpp; sourceTree = SOURCE_ROOT; };
-		C7674573AD7808C53CFBA3D7 /* UnityEngine.AudioModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AudioModule.cpp; path = Classes/Native/UnityEngine.AudioModule.cpp; sourceTree = SOURCE_ROOT; };
-		C837471791FB0CF4A2AE9FC9 /* Mono.Security.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Mono.Security.cpp; path = Classes/Native/Mono.Security.cpp; sourceTree = SOURCE_ROOT; };
-		C8AF4E7C904826F0D2630724 /* TDSMoment_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSMoment_CodeGen.c; path = Classes/Native/TDSMoment_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		CC6C4454A3EF4185E36422DC /* mscorlib6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib6.cpp; path = Classes/Native/mscorlib6.cpp; sourceTree = SOURCE_ROOT; };
-		CE5C4856B0959757DB4B5977 /* LaunchScreen-iPhoneLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPhoneLandscape.png"; sourceTree = SOURCE_ROOT; };
-		D1754AB589557782E2BE1F2C /* UnityNativeDialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityNativeDialogs.h; path = Libraries/com.ms.nativedialog/Runtime/iOS/UnityNativeDialogs.h; sourceTree = SOURCE_ROOT; };
-		D46C4E2196B6243F9FB725DF /* Generics4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics4.cpp; path = Classes/Native/Generics4.cpp; sourceTree = SOURCE_ROOT; };
+		ABA2461FB3EC19BA24AA8396 /* MS.NativeDialog_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = MS.NativeDialog_CodeGen.c; path = Classes/Native/MS.NativeDialog_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		AC3845AC9C3037A0C7A9018D /* UnityEngine.CoreModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.CoreModule_CodeGen.c; path = Classes/Native/UnityEngine.CoreModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		B3A24D5CAF0DF71D7717C91A /* TDSCommon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSCommon.cpp; path = Classes/Native/TDSCommon.cpp; sourceTree = SOURCE_ROOT; };
+		BC6A4156BEF8000C1D5A01F4 /* Il2CppMetadataUsage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppMetadataUsage.c; path = Classes/Native/Il2CppMetadataUsage.c; sourceTree = SOURCE_ROOT; };
+		BEB0475C83049AB5ABEB133D /* LaunchScreen-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPad.png"; sourceTree = SOURCE_ROOT; };
+		C1DB4322BDC8C7776EB8D8E0 /* mscorlib6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib6.cpp; path = Classes/Native/mscorlib6.cpp; sourceTree = SOURCE_ROOT; };
+		C26C464F85CDA18207697782 /* LaunchScreen-iPhonePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPhonePortrait.png"; sourceTree = SOURCE_ROOT; };
+		C4D04645956D57DCA0F03704 /* System.Configuration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Configuration.cpp; path = Classes/Native/System.Configuration.cpp; sourceTree = SOURCE_ROOT; };
+		CC544497B4CC68AAEECB3433 /* UnityEngine.InputLegacyModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.InputLegacyModule.cpp; path = Classes/Native/UnityEngine.InputLegacyModule.cpp; sourceTree = SOURCE_ROOT; };
+		CE484547937BC7D4A4902766 /* UnityEngine.IMGUIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.IMGUIModule_CodeGen.c; path = Classes/Native/UnityEngine.IMGUIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		CF1345ABBC1E2604AF019079 /* UnityEngine.TextRenderingModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.TextRenderingModule.cpp; path = Classes/Native/UnityEngine.TextRenderingModule.cpp; sourceTree = SOURCE_ROOT; };
+		D0BA44279C60753D3D7E6B1A /* Il2CppGenericInstDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericInstDefinitions.c; path = Classes/Native/Il2CppGenericInstDefinitions.c; sourceTree = SOURCE_ROOT; };
+		D2484990831BDBC3E58E5DD0 /* UnityEngine.CoreModule1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.CoreModule1.cpp; path = Classes/Native/UnityEngine.CoreModule1.cpp; sourceTree = SOURCE_ROOT; };
+		D43249AB867B47F485C9FEC3 /* TDSLogin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSLogin.cpp; path = Classes/Native/TDSLogin.cpp; sourceTree = SOURCE_ROOT; };
+		D4494C3FA708E4ACF7E2325B /* mscorlib4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib4.cpp; path = Classes/Native/mscorlib4.cpp; sourceTree = SOURCE_ROOT; };
+		D7454ED99728E47AC793E918 /* mscorlib2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib2.cpp; path = Classes/Native/mscorlib2.cpp; sourceTree = SOURCE_ROOT; };
 		D82DCFBB0E8000A5005D6AD8 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = Classes/main.mm; sourceTree = SOURCE_ROOT; };
 		D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RegisterMonoModules.cpp; path = Libraries/RegisterMonoModules.cpp; sourceTree = SOURCE_ROOT; };
-		D94D41B2946C8B79AF171215 /* Il2CppGenericInstDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericInstDefinitions.c; path = Classes/Native/Il2CppGenericInstDefinitions.c; sourceTree = SOURCE_ROOT; };
-		D98A445894560404A988E177 /* mscorlib4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib4.cpp; path = Classes/Native/mscorlib4.cpp; sourceTree = SOURCE_ROOT; };
-		DB9941BFBA69B417C1F16C50 /* UnresolvedVirtualCallStubs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnresolvedVirtualCallStubs.cpp; path = Classes/Native/UnresolvedVirtualCallStubs.cpp; sourceTree = SOURCE_ROOT; };
-		DC884691AD7C9EAFEAF98BA7 /* mscorlib1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib1.cpp; path = Classes/Native/mscorlib1.cpp; sourceTree = SOURCE_ROOT; };
-		DE43438987ACDC5FBF6C80F3 /* System.Configuration_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Configuration_CodeGen.c; path = Classes/Native/System.Configuration_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		DF9A40238310F397DD72E57E /* UnityEngine.InputLegacyModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.InputLegacyModule_CodeGen.c; path = Classes/Native/UnityEngine.InputLegacyModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		E5DB4531BDE70D67346F2645 /* Il2CppGenericComDefinitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericComDefinitions.cpp; path = Classes/Native/Il2CppGenericComDefinitions.cpp; sourceTree = SOURCE_ROOT; };
-		E7DA41899E269BE6F29A5E5E /* UnityEngine.JSONSerializeModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.JSONSerializeModule.cpp; path = Classes/Native/UnityEngine.JSONSerializeModule.cpp; sourceTree = SOURCE_ROOT; };
-		EA374FF6A5E8634E8712EF34 /* UnityNative.Toasts_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityNative.Toasts_CodeGen.c; path = Classes/Native/UnityNative.Toasts_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		F12F4763BE0502FFD4FFFB13 /* Generics2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics2.cpp; path = Classes/Native/Generics2.cpp; sourceTree = SOURCE_ROOT; };
-		F5144D2B803775415C786F07 /* TDSTapDB_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = TDSTapDB_CodeGen.c; path = Classes/Native/TDSTapDB_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		D9C54E65BE38DB1CA23412BB /* UnityNative.Toasts.Example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityNative.Toasts.Example.cpp; path = Classes/Native/UnityNative.Toasts.Example.cpp; sourceTree = SOURCE_ROOT; };
+		DA5E40A9B67E7B9EC7CD967B /* MS.NativeDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MS.NativeDialog.cpp; path = Classes/Native/MS.NativeDialog.cpp; sourceTree = SOURCE_ROOT; };
+		E2E6436286AC4706CA7910D3 /* System1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System1.cpp; path = Classes/Native/System1.cpp; sourceTree = SOURCE_ROOT; };
+		E41C48BFB141E452BABAF0B0 /* Assembly-CSharp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp.cpp"; path = "Classes/Native/Assembly-CSharp.cpp"; sourceTree = SOURCE_ROOT; };
+		E42C4964A424115B3942D8BC /* Mono.Security.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Mono.Security.cpp; path = Classes/Native/Mono.Security.cpp; sourceTree = SOURCE_ROOT; };
+		E48C4FFA98718C0E001D5E9F /* DynamicLibEngineAPI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DynamicLibEngineAPI.mm; path = Classes/DynamicLibEngineAPI.mm; sourceTree = SOURCE_ROOT; };
+		E4BB4EEBA35BC86C959A7E8A /* mscorlib1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib1.cpp; path = Classes/Native/mscorlib1.cpp; sourceTree = SOURCE_ROOT; };
+		E823498085E408F36F9F8D20 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		ECD2444EB9A73B403B6D9DF9 /* System.Xml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml.cpp; path = Classes/Native/System.Xml.cpp; sourceTree = SOURCE_ROOT; };
+		EE7343AFB3C33ACCF8E63203 /* UnityNative_Toasts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityNative_Toasts.h; path = Libraries/com.unitynative.toasts/Plugins/iOS/UnityNative_Toasts.h; sourceTree = SOURCE_ROOT; };
+		F3D84EE0A6119A24EA5D47B7 /* IUnityGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityGraphics.h; path = Classes/Unity/IUnityGraphics.h; sourceTree = SOURCE_ROOT; };
+		F54546189C916A63B7304415 /* System.Core_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Core_CodeGen.c; path = Classes/Native/System.Core_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		F6361BB52195CE5D00F61766 /* UnitySharedDecls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitySharedDecls.h; sourceTree = "<group>"; };
-		FA084CE3BC33FE97FA700E91 /* Generics3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics3.cpp; path = Classes/Native/Generics3.cpp; sourceTree = SOURCE_ROOT; };
-		FB3646D4A9CA885301B75318 /* TDSCommon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TDSCommon.cpp; path = Classes/Native/TDSCommon.cpp; sourceTree = SOURCE_ROOT; };
+		FAA9440597AFC2A000ECC711 /* System_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System_CodeGen.c; path = Classes/Native/System_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		FC0B20A11B7A4F0B00FDFC55 /* OnDemandResources.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OnDemandResources.mm; sourceTree = "<group>"; };
 		FC3D7EBE16D2621600D1BD0D /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
+		FC834D7A82AA10A72BF2B9DD /* UnityEngine.JSONSerializeModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.JSONSerializeModule_CodeGen.c; path = Classes/Native/UnityEngine.JSONSerializeModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		FC85CCB916C3ED8000BAF7C7 /* CrashReporter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CrashReporter.mm; sourceTree = "<group>"; };
 		FC85CCBA16C3ED8000BAF7C7 /* PLCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashReporter.h; sourceTree = "<group>"; };
-		FDAB46FDAE059DBD42BEAAB2 /* profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = profile.json; path = Classes/Native/profile.json; sourceTree = SOURCE_ROOT; };
-		FE1145BDB4CFE5BB7CBE7199 /* UnityEngine.TextRenderingModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.TextRenderingModule.cpp; path = Classes/Native/UnityEngine.TextRenderingModule.cpp; sourceTree = SOURCE_ROOT; };
+		FC974272BD81550247D4A1A5 /* Generics3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics3.cpp; path = Classes/Native/Generics3.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -522,33 +522,51 @@
 				9D690CDE21BFD3D9005026B1 /* SystemConfiguration.framework in Frameworks */,
 				9D690CDF21BFD3E3005026B1 /* UIKit.framework in Frameworks */,
 				9D0A618B21BFE7F30094DC33 /* libiconv.2.tbd in Frameworks */,
-				4ADC47AAB680BFC9B5227B16 /* libiPhone-lib.dylib in Frameworks */,
-				DED9417985DBFC8BA290E737 /* libil2cpp.a in Frameworks */,
-				7535483A8052A94903055EB3 /* baselib.a in Frameworks */,
-				AA244605BF004DA900DBC341 /* TapSDK.framework in Frameworks */,
-				5E134DACAA65D5F7FE098FD3 /* TDSCommon.framework in Frameworks */,
-				EC4C4376BCD9DB382BF09AA5 /* Metal.framework in Frameworks */,
-				8A7140489ED6B6F7217C19CD /* GameController.framework in Frameworks */,
+				9F4949C5A63133E110D36594 /* libiPhone-lib.dylib in Frameworks */,
+				62094B429616C0F6B8684A52 /* libil2cpp.a in Frameworks */,
+				F17747A2BC175C052360F301 /* baselib.a in Frameworks */,
+				37F84D00A71697E2FF8C6457 /* TapSDK.framework in Frameworks */,
+				A3D646A3B1A63298E875145A /* TDSCommon.framework in Frameworks */,
+				6EEE46D1A7D9497FED8F0DEF /* Metal.framework in Frameworks */,
+				57694A7DB4221F54068F5E73 /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		152241B49E284D65847A93AB /* Runtime */ = {
+		037C43BD9EAD56CD49FC16F9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F2B3421C8D5162B8387A51F9 /* iOS */,
+				9E544684BCD49C5C52CE5088 /* UnityNativeDialogs.h */,
+				43E0415AA39548A415194CD8 /* UnityNativeDialogs.mm */,
 			);
-			path = Runtime;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		174D44A799BEDCC4115BD28D /* com.ms.nativedialog */ = {
+		0E9144AF8011FC072A81C0E6 /* com.unitynative.toasts */ = {
 			isa = PBXGroup;
 			children = (
-				152241B49E284D65847A93AB /* Runtime */,
+				1085492781672AAAE0C88B85 /* Plugins */,
 			);
-			path = com.ms.nativedialog;
+			path = com.unitynative.toasts;
+			sourceTree = "<group>";
+		};
+		0FFE41E2B92085C00CAD3492 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE7343AFB3C33ACCF8E63203 /* UnityNative_Toasts.h */,
+				77924229A75183678D812BDD /* UnityNative_Toasts.mm */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1085492781672AAAE0C88B85 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				0FFE41E2B92085C00CAD3492 /* iOS */,
+			);
+			path = Plugins;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -559,106 +577,6 @@
 				9D25AB9D213FB47800354C27 /* UnityFramework.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1F374A1294AB5802156AA275 /* Native */ = {
-			isa = PBXGroup;
-			children = (
-				5EC04D6297B35012951E1AA7 /* Assembly-CSharp.cpp */,
-				A7C34AB0A7AFE16187663D78 /* Assembly-CSharp_CodeGen.c */,
-				698A492CB8C439D4627E559E /* GenericMethods.cpp */,
-				40034803B51954060FEC6746 /* GenericMethods1.cpp */,
-				BCC64C268F8857599C99624B /* Generics.cpp */,
-				2E944AEB84F8BCB5304B4BD3 /* Generics1.cpp */,
-				F12F4763BE0502FFD4FFFB13 /* Generics2.cpp */,
-				FA084CE3BC33FE97FA700E91 /* Generics3.cpp */,
-				D46C4E2196B6243F9FB725DF /* Generics4.cpp */,
-				63E3474FB9DC854C67B46952 /* Il2CppAttributes.cpp */,
-				17054BBC952234EDEB01DC3D /* Il2CppCodeRegistration.cpp */,
-				C7344A51954E9F5701D29E33 /* Il2CppCompilerCalculateTypeValues.cpp */,
-				1C634EA1B6539864D72903F8 /* Il2CppCompilerCalculateTypeValuesTable.cpp */,
-				772745CFAB458282BED353E3 /* Il2CppGenericClassTable.c */,
-				E5DB4531BDE70D67346F2645 /* Il2CppGenericComDefinitions.cpp */,
-				D94D41B2946C8B79AF171215 /* Il2CppGenericInstDefinitions.c */,
-				27824A658A966223116838FE /* Il2CppGenericMethodDefinitions.c */,
-				5F924118B18912122357D187 /* Il2CppGenericMethodPointerTable.cpp */,
-				3B0149909C20CC8297A07BF6 /* Il2CppGenericMethodTable.c */,
-				C3ED434B904C7965743776CF /* Il2CppInteropDataTable.cpp */,
-				2204438E94B60450456CD872 /* Il2CppInvokerTable.cpp */,
-				93D6415BBD13A06E51F3F70F /* Il2CppMetadataRegistration.c */,
-				8B2849B38DF86C2B832EE8A4 /* Il2CppMetadataUsage.c */,
-				6D794FFB8ED47F3B721988D3 /* Il2CppReversePInvokeWrapperTable.cpp */,
-				902649D1B7F2E92E5D1E81F5 /* Il2CppTypeDefinitions.c */,
-				515F47A4922FA5B5254ABC9C /* MS.NativeDialog.cpp */,
-				8C4D4F01839C0D2452F267FD /* MS.NativeDialog_CodeGen.c */,
-				C837471791FB0CF4A2AE9FC9 /* Mono.Security.cpp */,
-				40B44605972EBF6BEB422A11 /* Mono.Security_CodeGen.c */,
-				768B4125AE2C20BFE8AA472D /* System.Configuration.cpp */,
-				DE43438987ACDC5FBF6C80F3 /* System.Configuration_CodeGen.c */,
-				1691461886566EF31B29A559 /* System.Core.cpp */,
-				A47B42AA81A284A4DF1DF967 /* System.Core_CodeGen.c */,
-				67A04808A980A4E04C27C3F1 /* System.Xml.cpp */,
-				16C64FC7BEE92CA99519050A /* System.Xml_CodeGen.c */,
-				B9FF46EEB7ACECAF34F7622D /* System.cpp */,
-				B1EC4E65A52CBFE828BA1676 /* System1.cpp */,
-				A938435D9AC86ABFB2A6FC22 /* System_CodeGen.c */,
-				FB3646D4A9CA885301B75318 /* TDSCommon.cpp */,
-				25694A4488B679EE93AB18DF /* TDSCommon_CodeGen.c */,
-				301E4F3AB38F176D9E22A1FC /* TDSCore.cpp */,
-				06DD4371A72A77B6DA054956 /* TDSCore_CodeGen.c */,
-				64734E2E8456AC1C12F2B225 /* TDSLogin.cpp */,
-				172348B28DCC88E9BC3858B3 /* TDSLogin_CodeGen.c */,
-				7A304EE6AE8DE92119D3B918 /* TDSMoment.cpp */,
-				C8AF4E7C904826F0D2630724 /* TDSMoment_CodeGen.c */,
-				191B4FA587CE9DC3FEAF4E10 /* TDSTapDB.cpp */,
-				F5144D2B803775415C786F07 /* TDSTapDB_CodeGen.c */,
-				210C45259AA101BA8A294E51 /* UnityClassRegistration.cpp */,
-				0C1942839A1F8221BA18B70B /* UnityEngine.AndroidJNIModule.cpp */,
-				8F9A4B29A076A2694F1EF8C1 /* UnityEngine.AndroidJNIModule_CodeGen.c */,
-				C7674573AD7808C53CFBA3D7 /* UnityEngine.AudioModule.cpp */,
-				0A68495B938E13BDB9F02D2F /* UnityEngine.AudioModule_CodeGen.c */,
-				884C42E9A6397597D608C1B3 /* UnityEngine.CoreModule.cpp */,
-				1E9C4A8CA165DCB08489A31F /* UnityEngine.CoreModule1.cpp */,
-				BD1040E5A463CA54979CBB05 /* UnityEngine.CoreModule_CodeGen.c */,
-				5417414BA0EE04970D9E578C /* UnityEngine.GameCenterModule.cpp */,
-				974E46CA9E94C2717445AE55 /* UnityEngine.GameCenterModule_CodeGen.c */,
-				7F7D4076B741504BDC0134A8 /* UnityEngine.IMGUIModule.cpp */,
-				8E264267A997FF294C514C96 /* UnityEngine.IMGUIModule_CodeGen.c */,
-				3B8F42708953B28B470B248C /* UnityEngine.InputLegacyModule.cpp */,
-				DF9A40238310F397DD72E57E /* UnityEngine.InputLegacyModule_CodeGen.c */,
-				E7DA41899E269BE6F29A5E5E /* UnityEngine.JSONSerializeModule.cpp */,
-				885649FA8AA0AB33D38C443A /* UnityEngine.JSONSerializeModule_CodeGen.c */,
-				754C40E3976953728165A32B /* UnityEngine.SharedInternalsModule.cpp */,
-				5AA34BBDB48746F97961D36E /* UnityEngine.SharedInternalsModule_CodeGen.c */,
-				FE1145BDB4CFE5BB7CBE7199 /* UnityEngine.TextRenderingModule.cpp */,
-				6A7542D685FF83067DEBBEEA /* UnityEngine.TextRenderingModule_CodeGen.c */,
-				9F9B44449E9F82FB6C7D63E5 /* UnityEngine.cpp */,
-				60E4492FA4CF1245FEA23D12 /* UnityEngine_CodeGen.c */,
-				ABC84A7EBC6685EDE8E4F383 /* UnityNative.Toasts.Example.cpp */,
-				A55645939F66FDE77E289BF1 /* UnityNative.Toasts.Example_CodeGen.c */,
-				0D7F4B39AB194D60292024C4 /* UnityNative.Toasts.cpp */,
-				EA374FF6A5E8634E8712EF34 /* UnityNative.Toasts_CodeGen.c */,
-				DB9941BFBA69B417C1F16C50 /* UnresolvedVirtualCallStubs.cpp */,
-				8BB64F12874488AB8BDFCB02 /* mscorlib.cpp */,
-				DC884691AD7C9EAFEAF98BA7 /* mscorlib1.cpp */,
-				B656470CA963AD15A6C7C599 /* mscorlib10.cpp */,
-				5F3949ECBDCB2AE78CC7E2F1 /* mscorlib11.cpp */,
-				4659410EB46E783EA6C9B3BB /* mscorlib12.cpp */,
-				0C804503B159DE20E24D5A09 /* mscorlib13.cpp */,
-				BE334CBEBBFF70270FF403E1 /* mscorlib14.cpp */,
-				1FC54CFFB0A546FE1D487289 /* mscorlib15.cpp */,
-				2CD14BB3943A12F797672D29 /* mscorlib2.cpp */,
-				6D2345BD9FEC3408827167A9 /* mscorlib3.cpp */,
-				D98A445894560404A988E177 /* mscorlib4.cpp */,
-				8EFA4130A9D435B5AE81524C /* mscorlib5.cpp */,
-				CC6C4454A3EF4185E36422DC /* mscorlib6.cpp */,
-				439C405AAD4F38D098768AB6 /* mscorlib7.cpp */,
-				60D141B59D6B82DB172A921C /* mscorlib8.cpp */,
-				536B4F3AA86D9599EC4B41A5 /* mscorlib9.cpp */,
-				66394BE2B39E43A89BC81D27 /* mscorlib_CodeGen.c */,
-				FDAB46FDAE059DBD42BEAAB2 /* profile.json */,
-			);
-			path = Native;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
@@ -674,11 +592,11 @@
 				D8A1C7220E80637F000160D3 /* Libraries */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				1970409D91564B5AA2ADAD24 /* LaunchScreen-iPhone.storyboard */,
-				86FA4F7797C9B27AE2F1922D /* LaunchScreen-iPhonePortrait.png */,
-				CE5C4856B0959757DB4B5977 /* LaunchScreen-iPhoneLandscape.png */,
-				51CC47C680CC0A6125D0D6EB /* LaunchScreen-iPad.storyboard */,
-				96F24B549A7049A5E5E23B7F /* LaunchScreen-iPad.png */,
+				2CD94C74973FD69DB3BD3531 /* LaunchScreen-iPhone.storyboard */,
+				C26C464F85CDA18207697782 /* LaunchScreen-iPhonePortrait.png */,
+				2AD04814BC71A6DBB41C8158 /* LaunchScreen-iPhoneLandscape.png */,
+				A4E94F108F9C95166E2622FD /* LaunchScreen-iPad.storyboard */,
+				BEB0475C83049AB5ABEB133D /* LaunchScreen-iPad.png */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -705,9 +623,9 @@
 				83B2570A0E62FF8A00468741 /* QuartzCore.framework */,
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
-				7175449BBED2DFFAED017068 /* com.tds.sdk */,
-				8FE3497A90687592A24B9E63 /* Metal.framework */,
-				300642239A843B6FB5F5C9D8 /* GameController.framework */,
+				F82A4C8FB4B7C890B3C38DC6 /* com.tds.sdk */,
+				E823498085E408F36F9F8D20 /* Metal.framework */,
+				0D654128821D7076B08646B0 /* GameController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -731,12 +649,128 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7175449BBED2DFFAED017068 /* com.tds.sdk */ = {
+		6D0E473C8A721349A6704D3C /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				E4DC490BBE054EC769517BF2 /* Plugins */,
+				D4634AFBA65F8A9FD530E511 /* IOS */,
 			);
-			path = com.tds.sdk;
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		6FE04AEA8307A3F036D42B39 /* com.ms.nativedialog */ = {
+			isa = PBXGroup;
+			children = (
+				82B74CEFA812707515D20FF7 /* Runtime */,
+			);
+			path = com.ms.nativedialog;
+			sourceTree = "<group>";
+		};
+		82B74CEFA812707515D20FF7 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				037C43BD9EAD56CD49FC16F9 /* iOS */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		86104E1885DC8B617A5B6D9E /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				E41C48BFB141E452BABAF0B0 /* Assembly-CSharp.cpp */,
+				2E304B0084075160CE583FC5 /* Assembly-CSharp_CodeGen.c */,
+				87FE4105A90CEA3E00E5463C /* GenericMethods.cpp */,
+				956B45F79C85A99AF4E8C20C /* GenericMethods1.cpp */,
+				2BDE426FBDE1447BDE37A0F0 /* Generics.cpp */,
+				1FB44C8F8CF4C5C9DF63746C /* Generics1.cpp */,
+				57D945519EFB2C37A28E65B1 /* Generics2.cpp */,
+				FC974272BD81550247D4A1A5 /* Generics3.cpp */,
+				603B4669ACD0606B4B3E6234 /* Generics4.cpp */,
+				0D5E4ADFA8618B2F913B3EB9 /* Il2CppAttributes.cpp */,
+				93124539A8487F3152BA60D5 /* Il2CppCodeRegistration.cpp */,
+				1E094A519EC6F81BD2936083 /* Il2CppCompilerCalculateTypeValues.cpp */,
+				2A074BCAA927A709823B4D70 /* Il2CppCompilerCalculateTypeValuesTable.cpp */,
+				37A44F2699B3FC1007E69E31 /* Il2CppGenericClassTable.c */,
+				28614495B8C31D203C5C7340 /* Il2CppGenericComDefinitions.cpp */,
+				D0BA44279C60753D3D7E6B1A /* Il2CppGenericInstDefinitions.c */,
+				92A4461FAC612A8ED8EAA675 /* Il2CppGenericMethodDefinitions.c */,
+				98D74CFBBD96029F1ECC9A10 /* Il2CppGenericMethodPointerTable.cpp */,
+				9A49419893D860E734BF44B1 /* Il2CppGenericMethodTable.c */,
+				0DDC40A982A206DCC8A4C7A8 /* Il2CppInteropDataTable.cpp */,
+				970849C09692A97B4AB737D0 /* Il2CppInvokerTable.cpp */,
+				6EFC4779B6DA74BDB5691D10 /* Il2CppMetadataRegistration.c */,
+				BC6A4156BEF8000C1D5A01F4 /* Il2CppMetadataUsage.c */,
+				745E40E79B1ECA6E1740F9AD /* Il2CppReversePInvokeWrapperTable.cpp */,
+				66AC477B87DB56BB89744996 /* Il2CppTypeDefinitions.c */,
+				DA5E40A9B67E7B9EC7CD967B /* MS.NativeDialog.cpp */,
+				ABA2461FB3EC19BA24AA8396 /* MS.NativeDialog_CodeGen.c */,
+				E42C4964A424115B3942D8BC /* Mono.Security.cpp */,
+				79224E2EBE43E0FD32C4105C /* Mono.Security_CodeGen.c */,
+				C4D04645956D57DCA0F03704 /* System.Configuration.cpp */,
+				401E414B8F4869EA60B411B2 /* System.Configuration_CodeGen.c */,
+				929E48E7A08770C6075A57EF /* System.Core.cpp */,
+				F54546189C916A63B7304415 /* System.Core_CodeGen.c */,
+				ECD2444EB9A73B403B6D9DF9 /* System.Xml.cpp */,
+				3D3545F283F039EE65624C19 /* System.Xml_CodeGen.c */,
+				5C484289B3F4CF65A313679B /* System.cpp */,
+				E2E6436286AC4706CA7910D3 /* System1.cpp */,
+				FAA9440597AFC2A000ECC711 /* System_CodeGen.c */,
+				B3A24D5CAF0DF71D7717C91A /* TDSCommon.cpp */,
+				361748A081C41B5F698020BF /* TDSCommon_CodeGen.c */,
+				5435426E944F95E4EF2E213C /* TDSCore.cpp */,
+				395349F88A6686AB4685C4DF /* TDSCore_CodeGen.c */,
+				D43249AB867B47F485C9FEC3 /* TDSLogin.cpp */,
+				344D451BBDB20AD2DB20C45F /* TDSLogin_CodeGen.c */,
+				64134BFC806D1BD531563408 /* TDSMoment.cpp */,
+				7CAF4CBD87D190B374F80B77 /* TDSMoment_CodeGen.c */,
+				955949D19B42D8AF2D2CDD51 /* TDSTapDB.cpp */,
+				16434296AA26D8B7D69FA956 /* TDSTapDB_CodeGen.c */,
+				3AFD4BD789C44AA87BBE9DAE /* UnityClassRegistration.cpp */,
+				A9044366B97B19FACF5849AE /* UnityEngine.AndroidJNIModule.cpp */,
+				3D284D4BAD317719E2145004 /* UnityEngine.AndroidJNIModule_CodeGen.c */,
+				0A4945B5824180124932AE01 /* UnityEngine.AudioModule.cpp */,
+				57924F8590AF58250B3B3D2D /* UnityEngine.AudioModule_CodeGen.c */,
+				0B6945199717D67CF3728FEC /* UnityEngine.CoreModule.cpp */,
+				D2484990831BDBC3E58E5DD0 /* UnityEngine.CoreModule1.cpp */,
+				AC3845AC9C3037A0C7A9018D /* UnityEngine.CoreModule_CodeGen.c */,
+				24764630BEF329ED4E78CCBE /* UnityEngine.GameCenterModule.cpp */,
+				10BA4009BD0CBDA64CD27FD4 /* UnityEngine.GameCenterModule_CodeGen.c */,
+				23F04FF0A5B020E7380057A9 /* UnityEngine.IMGUIModule.cpp */,
+				CE484547937BC7D4A4902766 /* UnityEngine.IMGUIModule_CodeGen.c */,
+				CC544497B4CC68AAEECB3433 /* UnityEngine.InputLegacyModule.cpp */,
+				1C9C4F1B8A5C52FBCD48D367 /* UnityEngine.InputLegacyModule_CodeGen.c */,
+				18984045AA734943DA56974F /* UnityEngine.JSONSerializeModule.cpp */,
+				FC834D7A82AA10A72BF2B9DD /* UnityEngine.JSONSerializeModule_CodeGen.c */,
+				860D4244804D80C88ED27D59 /* UnityEngine.SharedInternalsModule.cpp */,
+				84A44575B592B34AD1420D77 /* UnityEngine.SharedInternalsModule_CodeGen.c */,
+				CF1345ABBC1E2604AF019079 /* UnityEngine.TextRenderingModule.cpp */,
+				25D543B586084BEE288E7CB7 /* UnityEngine.TextRenderingModule_CodeGen.c */,
+				74794F24A873D243519ABE6C /* UnityEngine.cpp */,
+				5A5841DD98B3BD6AACD5D243 /* UnityEngine_CodeGen.c */,
+				D9C54E65BE38DB1CA23412BB /* UnityNative.Toasts.Example.cpp */,
+				435A4E3C81458655B6A62BC3 /* UnityNative.Toasts.Example_CodeGen.c */,
+				055A41909CD3D9D245960D97 /* UnityNative.Toasts.cpp */,
+				81CB4879900FB4F90D44E814 /* UnityNative.Toasts_CodeGen.c */,
+				54B648308D748B15326BD020 /* UnresolvedVirtualCallStubs.cpp */,
+				78BE40F9B666CBCD138C25C2 /* mscorlib.cpp */,
+				E4BB4EEBA35BC86C959A7E8A /* mscorlib1.cpp */,
+				192C4B2B905E3A72DBEAC753 /* mscorlib10.cpp */,
+				5E6340AB85EFF5B1A5C1BC44 /* mscorlib11.cpp */,
+				A4E94B50BC41949982A798F5 /* mscorlib12.cpp */,
+				10EE442CA78E9EF99F95E9CB /* mscorlib13.cpp */,
+				0A5E439D98CBCF26E6D9BC15 /* mscorlib14.cpp */,
+				0B6F46328786CF638456B35A /* mscorlib15.cpp */,
+				D7454ED99728E47AC793E918 /* mscorlib2.cpp */,
+				1437435D8D8405A9AB7A8D6D /* mscorlib3.cpp */,
+				D4494C3FA708E4ACF7E2325B /* mscorlib4.cpp */,
+				17854A4CA4992E406629433D /* mscorlib5.cpp */,
+				C1DB4322BDC8C7776EB8D8E0 /* mscorlib6.cpp */,
+				2A83408392B049955BE82730 /* mscorlib7.cpp */,
+				72DE40BF9EB7B67E15A70523 /* mscorlib8.cpp */,
+				40A24CC1B288E34C0115CACC /* mscorlib9.cpp */,
+				008F402B8B72788D74592114 /* mscorlib_CodeGen.c */,
+				151345AF83374CDF4306BF4D /* profile.json */,
+			);
+			path = Native;
 			sourceTree = "<group>";
 		};
 		8A3EDDC51615B7C1001839E9 /* UI */ = {
@@ -821,19 +855,11 @@
 				8AB3CB3C16D390BA00697AD5 /* VideoPlayer.h */,
 				8AB3CB3D16D390BB00697AD5 /* VideoPlayer.mm */,
 				862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */,
-				BBE446A6A18FBD1A7F633A88 /* IUnityInterface.h */,
-				AAAA4AAA89B8B06A6B845C07 /* IUnityGraphics.h */,
-				AB564217B094D3040992C3F6 /* IUnityGraphicsMetal.h */,
+				54054DA7BDC22E716364D4B0 /* IUnityInterface.h */,
+				F3D84EE0A6119A24EA5D47B7 /* IUnityGraphics.h */,
+				15714295A12B79020266C2C2 /* IUnityGraphicsMetal.h */,
 			);
 			path = Unity;
-			sourceTree = "<group>";
-		};
-		992E44968E24128570D01A30 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				E67E4DF8ACC14613DD9F0C40 /* iOS */,
-			);
-			path = Plugins;
 			sourceTree = "<group>";
 		};
 		9D25AB9E213FB47800354C27 /* UnityFramework */ = {
@@ -853,21 +879,13 @@
 			path = MainApp;
 			sourceTree = SOURCE_ROOT;
 		};
-		BE4E4F718904CA812B09F03D /* IOS */ = {
+		D4634AFBA65F8A9FD530E511 /* IOS */ = {
 			isa = PBXGroup;
 			children = (
-				1A684131B28199F8A18BAB9B /* TapSDK.framework */,
-				17A040C9BCC21113222A64E7 /* TDSCommon.framework */,
+				59DC4831B76C24E1242E954F /* TapSDK.framework */,
+				70EA4D77B40DB32CBB47E3DD /* TDSCommon.framework */,
 			);
 			path = IOS;
-			sourceTree = "<group>";
-		};
-		BE58454298D1F8FB72AC2316 /* com.unitynative.toasts */ = {
-			isa = PBXGroup;
-			children = (
-				992E44968E24128570D01A30 /* Plugins */,
-			);
-			path = com.unitynative.toasts;
 			sourceTree = "<group>";
 		};
 		D82DCFB50E8000A5005D6AD8 /* Classes */ = {
@@ -893,8 +911,8 @@
 				8A8D90D81A274A7800456C4E /* UnityAppController+UnityInterface.h */,
 				8A8D90D91A274A7800456C4E /* UnityAppController+UnityInterface.mm */,
 				8AA6ADDB17818CFD00A1C5F1 /* UnityTrampolineConfigure.h */,
-				07334B359A1F900E36E33EE7 /* DynamicLibEngineAPI.mm */,
-				1F374A1294AB5802156AA275 /* Native */,
+				E48C4FFA98718C0E001D5E9F /* DynamicLibEngineAPI.mm */,
+				86104E1885DC8B617A5B6D9E /* Native */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -906,39 +924,21 @@
 				AAC3E38C1A68945900F6174A /* RegisterFeatures.h */,
 				D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */,
 				03F528621B447098000F4FB8 /* Il2CppOptions.cpp */,
-				B6BC496F8C0E321218D242B3 /* libiPhone-lib.dylib */,
-				3DC042DEBDEFA7AF1B8B8EE3 /* libil2cpp.a */,
-				76664D89AE4236F136F2C70B /* baselib.a */,
-				BE58454298D1F8FB72AC2316 /* com.unitynative.toasts */,
-				174D44A799BEDCC4115BD28D /* com.ms.nativedialog */,
+				249D4D7699B511B36A27E366 /* libiPhone-lib.dylib */,
+				043A4031B7043895FA56AAB5 /* libil2cpp.a */,
+				68904AB682D17E579A9C61DD /* baselib.a */,
+				0E9144AF8011FC072A81C0E6 /* com.unitynative.toasts */,
+				6FE04AEA8307A3F036D42B39 /* com.ms.nativedialog */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
 		};
-		E4DC490BBE054EC769517BF2 /* Plugins */ = {
+		F82A4C8FB4B7C890B3C38DC6 /* com.tds.sdk */ = {
 			isa = PBXGroup;
 			children = (
-				BE4E4F718904CA812B09F03D /* IOS */,
+				6D0E473C8A721349A6704D3C /* Plugins */,
 			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
-		E67E4DF8ACC14613DD9F0C40 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E2A465AB00661E20F472610 /* UnityNative_Toasts.h */,
-				20E641FA955F169A77A4BA58 /* UnityNative_Toasts.mm */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		F2B3421C8D5162B8387A51F9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D1754AB589557782E2BE1F2C /* UnityNativeDialogs.h */,
-				69E54A8682FB07F2FF874D2D /* UnityNativeDialogs.mm */,
-			);
-			path = iOS;
+			path = com.tds.sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -954,11 +954,11 @@
 				9DC67E8621CBBEC7005F9FA1 /* UndefinePlatforms.h in Headers */,
 				9DC67E8721CBBEC7005F9FA1 /* RedefinePlatforms.h in Headers */,
 				9DC67E8921CBBEDF005F9FA1 /* LifeCycleListener.h in Headers */,
-				BB5A466BAEF7AE0D96E84784 /* UnityNative_Toasts.h in Headers */,
-				7F324548B3AC39BE50E0C6D7 /* UnityNativeDialogs.h in Headers */,
-				73554652B9E429437064915E /* IUnityInterface.h in Headers */,
-				0811430BBEDD83ACCAA50F14 /* IUnityGraphics.h in Headers */,
-				302E45769FD1167FF77F5751 /* IUnityGraphicsMetal.h in Headers */,
+				AB104416833C61806E2F76B3 /* UnityNative_Toasts.h in Headers */,
+				D63B4762B3D84D66204AE76E /* UnityNativeDialogs.h in Headers */,
+				86A94DD3BE10FA17E9BAF5AC /* IUnityInterface.h in Headers */,
+				F7254055935C5927A1E95469 /* IUnityGraphics.h in Headers */,
+				FA3F462AAD0D8EE718EE8D40 /* IUnityGraphicsMetal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,7 +1012,7 @@
 				9D25AB9A213FB47800354C27 /* Headers */,
 				9D3DC87A221D90AB00B2960B /* ShellScript */,
 				9D25AB9B213FB47800354C27 /* Resources */,
-				122D439DBD898BDAF3641151 /* Copy Shared Libraries */,
+				9E61401B99B840A16DA59DDA /* Copy Shared Libraries */,
 			);
 			buildRules = (
 			);
@@ -1077,11 +1077,11 @@
 			files = (
 				9D9DE4EA221D84E60049D9A1 /* Data in Resources */,
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
-				E3BD4D7E81320492935ACB11 /* LaunchScreen-iPhone.storyboard in Resources */,
-				9D3E4DE8BE4E70ACFE5A3389 /* LaunchScreen-iPhonePortrait.png in Resources */,
-				468B40E496DF9BEAB80824FE /* LaunchScreen-iPhoneLandscape.png in Resources */,
-				B6BD4EEB921333E953D9F33E /* LaunchScreen-iPad.storyboard in Resources */,
-				194C4344B401091B60D06EA9 /* LaunchScreen-iPad.png in Resources */,
+				95574EDDA0FC68E7B208254E /* LaunchScreen-iPhone.storyboard in Resources */,
+				375344FD83C2E357F4B5E5E3 /* LaunchScreen-iPhonePortrait.png in Resources */,
+				51DE474DB33CCFC9F45F0330 /* LaunchScreen-iPhoneLandscape.png in Resources */,
+				27B14E2B94CDC1E251248227 /* LaunchScreen-iPad.storyboard in Resources */,
+				32264D2DB72B343600A002B3 /* LaunchScreen-iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,7 +1097,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D84F3D8BAB725A634B2C54 /* profile.json in Resources */,
+				15174233BC6C37F5CC68F875 /* profile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1183,101 +1183,101 @@
 				9D25ABB2213FB6E300354C27 /* ActivityIndicator.mm in Sources */,
 				9D25ABC9213FB6F800354C27 /* MetalHelper.mm in Sources */,
 				9D25ABE8213FB7C800354C27 /* RegisterMonoModules.cpp in Sources */,
-				E43B4EA294DEA98C62410523 /* DynamicLibEngineAPI.mm in Sources */,
-				E98F49B8B6530A286FE72CC6 /* Assembly-CSharp.cpp in Sources */,
-				D1B54CAA98C511470F363740 /* Assembly-CSharp_CodeGen.c in Sources */,
-				52034143BAD26F0F6EFF71CE /* GenericMethods.cpp in Sources */,
-				A7AA475D8FDC729BB33C494E /* GenericMethods1.cpp in Sources */,
-				7D694844A1F474D3840FB553 /* Generics.cpp in Sources */,
-				A89D45A5BCEFC45524401A9B /* Generics1.cpp in Sources */,
-				9C6F4BADB6B294E4872F4E83 /* Generics2.cpp in Sources */,
-				B7CB4123900DE9E2477CABB8 /* Generics3.cpp in Sources */,
-				57D2488A96B6C2D7EA06E445 /* Generics4.cpp in Sources */,
-				19794D2CA1E3A9D82BFB8333 /* Il2CppAttributes.cpp in Sources */,
-				B979430C8B28CBC92595C971 /* Il2CppCodeRegistration.cpp in Sources */,
-				013544FEBE822005302EA3C3 /* Il2CppCompilerCalculateTypeValues.cpp in Sources */,
-				4C6C448BB3C44008190A5B2E /* Il2CppCompilerCalculateTypeValuesTable.cpp in Sources */,
-				B5794A3F8373C33507F8601C /* Il2CppGenericClassTable.c in Sources */,
-				640649C5BADE51ECB9BFEE91 /* Il2CppGenericComDefinitions.cpp in Sources */,
-				25324C9DA5BCB8397C65E1BA /* Il2CppGenericInstDefinitions.c in Sources */,
-				BF4B4454AE9F895F806D0049 /* Il2CppGenericMethodDefinitions.c in Sources */,
-				DB154E39872677E7472B6693 /* Il2CppGenericMethodPointerTable.cpp in Sources */,
-				0E314525953FD342968D30A4 /* Il2CppGenericMethodTable.c in Sources */,
-				A92846A69F32C0A0083032DA /* Il2CppInteropDataTable.cpp in Sources */,
-				5AB14099B52543CC40DE1B5D /* Il2CppInvokerTable.cpp in Sources */,
-				1DBD43938BEF71AC798C7E8B /* Il2CppMetadataRegistration.c in Sources */,
-				1711492D8F8C9F695980091A /* Il2CppMetadataUsage.c in Sources */,
-				037C48A2ACE6818E463A7F92 /* Il2CppReversePInvokeWrapperTable.cpp in Sources */,
-				FE80458E944DF0E693F63827 /* Il2CppTypeDefinitions.c in Sources */,
-				AEB54091B9E200B1149C6CFB /* MS.NativeDialog.cpp in Sources */,
-				4A0A49FDB592A4B3160B4F72 /* MS.NativeDialog_CodeGen.c in Sources */,
-				78704D2DB0F9806EE6E709BF /* Mono.Security.cpp in Sources */,
-				B128440AB54D20618157CD8A /* Mono.Security_CodeGen.c in Sources */,
-				3F204A618C1D16C447BBD5D8 /* System.Configuration.cpp in Sources */,
-				A97245AEAA0C338F9DDF41B8 /* System.Configuration_CodeGen.c in Sources */,
-				61AA41B59DC25BAA2278CED6 /* System.Core.cpp in Sources */,
-				047244AF9DA60E3810D379D3 /* System.Core_CodeGen.c in Sources */,
-				87FD4B1E9F826DE71BF3F7D0 /* System.Xml.cpp in Sources */,
-				78F24572A0398AC80570D835 /* System.Xml_CodeGen.c in Sources */,
-				B7034BFF9AA0E36DF319A517 /* System.cpp in Sources */,
-				435340D68ECCE76B16D79BF0 /* System1.cpp in Sources */,
-				727B408581BA589409F694C2 /* System_CodeGen.c in Sources */,
-				D0494DE0B4A17F8EFDC7D05D /* TDSCommon.cpp in Sources */,
-				9CF94AD9A7479A4A7A9E1834 /* TDSCommon_CodeGen.c in Sources */,
-				F81946E7ACAEEC95E985A6D9 /* TDSCore.cpp in Sources */,
-				CAEF4CF88B37CEB997C1FBD5 /* TDSCore_CodeGen.c in Sources */,
-				E29E405B8DB398857A278F05 /* TDSLogin.cpp in Sources */,
-				4BE7489ABB199F2417589027 /* TDSLogin_CodeGen.c in Sources */,
-				2C0F442AA123485A19F01B04 /* TDSMoment.cpp in Sources */,
-				2B6548F38F57086407421C50 /* TDSMoment_CodeGen.c in Sources */,
-				41E94A0EAF7FA34CADB9DD62 /* TDSTapDB.cpp in Sources */,
-				8EDB4536B073FF685906EB9D /* TDSTapDB_CodeGen.c in Sources */,
-				075C495DB668382267B48236 /* UnityClassRegistration.cpp in Sources */,
-				B5664FE282AC7A50A0CFB4B1 /* UnityEngine.AndroidJNIModule.cpp in Sources */,
-				9A1E4B2DBE051E1525D2A7D8 /* UnityEngine.AndroidJNIModule_CodeGen.c in Sources */,
-				37C6434BB8DE41F855037DB5 /* UnityEngine.AudioModule.cpp in Sources */,
-				934645078712092A0D433FB8 /* UnityEngine.AudioModule_CodeGen.c in Sources */,
-				EAE943C297E1B2EFEC8268D7 /* UnityEngine.CoreModule.cpp in Sources */,
-				0362494BB966334B7256AD4B /* UnityEngine.CoreModule1.cpp in Sources */,
-				A3A04D6EBE52AA6FCA278110 /* UnityEngine.CoreModule_CodeGen.c in Sources */,
-				A54B48D9A975B1F9A4B587E9 /* UnityEngine.GameCenterModule.cpp in Sources */,
-				094C48338B2CB07E93F8FBAA /* UnityEngine.GameCenterModule_CodeGen.c in Sources */,
-				2F9A4388BD28BF3BC648AC99 /* UnityEngine.IMGUIModule.cpp in Sources */,
-				C169487EBA84E63B34F2D695 /* UnityEngine.IMGUIModule_CodeGen.c in Sources */,
-				59B84EE9AD5823D11E1917AC /* UnityEngine.InputLegacyModule.cpp in Sources */,
-				BC394CFE946E36F1EDE51258 /* UnityEngine.InputLegacyModule_CodeGen.c in Sources */,
-				35EA4A0A8F73596FBC2BFEFC /* UnityEngine.JSONSerializeModule.cpp in Sources */,
-				31F64230A937EB294FA31F6F /* UnityEngine.JSONSerializeModule_CodeGen.c in Sources */,
-				6AA34ECCA3CC08B084A7692A /* UnityEngine.SharedInternalsModule.cpp in Sources */,
-				263748CAB1C613A7617BC4FA /* UnityEngine.SharedInternalsModule_CodeGen.c in Sources */,
-				53A44B6DAA8DC78D7969746F /* UnityEngine.TextRenderingModule.cpp in Sources */,
-				047F4F1CBA19E4BA571EDDA0 /* UnityEngine.TextRenderingModule_CodeGen.c in Sources */,
-				6356461588216F52E81F714A /* UnityEngine.cpp in Sources */,
-				B31844608955DAAD161F7CDA /* UnityEngine_CodeGen.c in Sources */,
-				A52E43BBBEAF809A9378403D /* UnityNative.Toasts.Example.cpp in Sources */,
-				E807475A8576629BEB7FFBBF /* UnityNative.Toasts.Example_CodeGen.c in Sources */,
-				6772471F9016DD8761B477E5 /* UnityNative.Toasts.cpp in Sources */,
-				72534CB8A314ABFF5C690C25 /* UnityNative.Toasts_CodeGen.c in Sources */,
-				1C6C48DA83CA1BB93467437D /* UnresolvedVirtualCallStubs.cpp in Sources */,
-				F6EE4C3FB3506F136018703A /* mscorlib.cpp in Sources */,
-				27BE410991ABA1FA0DD84310 /* mscorlib1.cpp in Sources */,
-				596448488780656911BC1875 /* mscorlib10.cpp in Sources */,
-				69FF484C8AEA4B1CA8E38A5F /* mscorlib11.cpp in Sources */,
-				6D284E6F84E3237BC4EBC977 /* mscorlib12.cpp in Sources */,
-				A09F4D3F9217C1A2ED90A49D /* mscorlib13.cpp in Sources */,
-				50E1444CAACF8AC5BB8F150F /* mscorlib14.cpp in Sources */,
-				51C741A1961E2E7A9B3C6CD6 /* mscorlib15.cpp in Sources */,
-				FE684DBB9AEE0E96E477ADE5 /* mscorlib2.cpp in Sources */,
-				589E43759016DA5001DE2CF4 /* mscorlib3.cpp in Sources */,
-				CC1844BFB40A5037B538DBA0 /* mscorlib4.cpp in Sources */,
-				BF34468CA1C386EB219CE76C /* mscorlib5.cpp in Sources */,
-				1EDB4918AA7FCCA7F837D814 /* mscorlib6.cpp in Sources */,
-				2527424EA9B83EAFC1ED5E1B /* mscorlib7.cpp in Sources */,
-				19A4482AA8F6FC88DAA95912 /* mscorlib8.cpp in Sources */,
-				C7854DD0834885DFC64DA5B3 /* mscorlib9.cpp in Sources */,
-				7EF5421EAFB23EF5DA6183D1 /* mscorlib_CodeGen.c in Sources */,
-				3E26437F9829584E2D1FE04C /* UnityNative_Toasts.mm in Sources */,
-				41FF4BD3B11E4752AA7EDB2C /* UnityNativeDialogs.mm in Sources */,
+				484143A2B44C93D2D429F5D9 /* DynamicLibEngineAPI.mm in Sources */,
+				88E641449739928F4841EA6F /* Assembly-CSharp.cpp in Sources */,
+				A0D34AE6BDF53CFC6A00548F /* Assembly-CSharp_CodeGen.c in Sources */,
+				2D3E4A2FB870942AB0E96C29 /* GenericMethods.cpp in Sources */,
+				13ED4121B21FD1FFECF7E545 /* GenericMethods1.cpp in Sources */,
+				C45949B998D36DCC7FB3AF02 /* Generics.cpp in Sources */,
+				E7EE4B6AA0699420C70D633B /* Generics1.cpp in Sources */,
+				2DBE44ECAAA8D7E4D3DA16C2 /* Generics2.cpp in Sources */,
+				213E4889B0C831935E810208 /* Generics3.cpp in Sources */,
+				2E9B414BB9A302957940F98E /* Generics4.cpp in Sources */,
+				6537442D9A07626F6E7A9717 /* Il2CppAttributes.cpp in Sources */,
+				244F4CECB94C15867B345E59 /* Il2CppCodeRegistration.cpp in Sources */,
+				8BAA4489BFB4317CC1C7B556 /* Il2CppCompilerCalculateTypeValues.cpp in Sources */,
+				87264E11AA5B93A35888041A /* Il2CppCompilerCalculateTypeValuesTable.cpp in Sources */,
+				5891469999D76386A6454303 /* Il2CppGenericClassTable.c in Sources */,
+				D5F54AF4946BDBC395F0AFB7 /* Il2CppGenericComDefinitions.cpp in Sources */,
+				8D494EFC83F0D19CAEAD0066 /* Il2CppGenericInstDefinitions.c in Sources */,
+				5C29426CA47E95CA60447ED7 /* Il2CppGenericMethodDefinitions.c in Sources */,
+				627049A49B6CF4AF4036BC11 /* Il2CppGenericMethodPointerTable.cpp in Sources */,
+				6F034E108DCAE82B73F65AC7 /* Il2CppGenericMethodTable.c in Sources */,
+				55014676AC1B2BED7A81FFDA /* Il2CppInteropDataTable.cpp in Sources */,
+				A3DD46088B2F94F75196C253 /* Il2CppInvokerTable.cpp in Sources */,
+				57F942F396762705FAAD2BFF /* Il2CppMetadataRegistration.c in Sources */,
+				D60145068634CEF179A668A8 /* Il2CppMetadataUsage.c in Sources */,
+				212A48D1B9DE2DAD81FD73AA /* Il2CppReversePInvokeWrapperTable.cpp in Sources */,
+				F6824D589DEDEA72EAC0C896 /* Il2CppTypeDefinitions.c in Sources */,
+				CD2D44F68DA652222A3B5CA1 /* MS.NativeDialog.cpp in Sources */,
+				42764360A000BA8EEF61F547 /* MS.NativeDialog_CodeGen.c in Sources */,
+				FF004B7C899510537BC6D421 /* Mono.Security.cpp in Sources */,
+				41164F1AA83BFFB5C7C0DE74 /* Mono.Security_CodeGen.c in Sources */,
+				90BB42EDA284362B33B5A0AC /* System.Configuration.cpp in Sources */,
+				57544F4180445503C3B991EE /* System.Configuration_CodeGen.c in Sources */,
+				DCA14AEDBB0421808C915047 /* System.Core.cpp in Sources */,
+				9869426A92BE80C8949BCA9A /* System.Core_CodeGen.c in Sources */,
+				DA0D485F8C30F85BE6ACD8CD /* System.Xml.cpp in Sources */,
+				F06E4467965D527DC431DBAF /* System.Xml_CodeGen.c in Sources */,
+				7E554D2F8C482495DB1B81D8 /* System.cpp in Sources */,
+				2E6F4E6A9AA8B6065DA26B74 /* System1.cpp in Sources */,
+				46284B7A9EDBB845D0118EE8 /* System_CodeGen.c in Sources */,
+				0DC34F889E9794E6B7F46FAA /* TDSCommon.cpp in Sources */,
+				09284545914F93BA69AB3B90 /* TDSCommon_CodeGen.c in Sources */,
+				33F8496FA78688A0E0E8D1AA /* TDSCore.cpp in Sources */,
+				EA9248E896D0BEF798E7FB2B /* TDSCore_CodeGen.c in Sources */,
+				64EF4CB1932264BF895DE04A /* TDSLogin.cpp in Sources */,
+				C0FF4306A19DC42E7AE9A577 /* TDSLogin_CodeGen.c in Sources */,
+				6FFB4F9A82FA85DFB3C6A43D /* TDSMoment.cpp in Sources */,
+				BE1E4F5182C2B7CB302BC878 /* TDSMoment_CodeGen.c in Sources */,
+				4D4F40E9A3824C67040345B1 /* TDSTapDB.cpp in Sources */,
+				23964FBC8007FE58CAF25E57 /* TDSTapDB_CodeGen.c in Sources */,
+				E10A4A0BAB54F09B8C2F5A52 /* UnityClassRegistration.cpp in Sources */,
+				219849AAA0802A9F5CB68CFB /* UnityEngine.AndroidJNIModule.cpp in Sources */,
+				479E478E98A715EFCB96C272 /* UnityEngine.AndroidJNIModule_CodeGen.c in Sources */,
+				5CE641248DCC90024F4C346E /* UnityEngine.AudioModule.cpp in Sources */,
+				35BF47A8AEB4DB6F6A29B7D1 /* UnityEngine.AudioModule_CodeGen.c in Sources */,
+				6B7A492FB35F4643749F58ED /* UnityEngine.CoreModule.cpp in Sources */,
+				409C42AD9300C57716D31FC3 /* UnityEngine.CoreModule1.cpp in Sources */,
+				838948A990644DDE4FA9FD61 /* UnityEngine.CoreModule_CodeGen.c in Sources */,
+				F7B04FF9B64E36DA60D3B712 /* UnityEngine.GameCenterModule.cpp in Sources */,
+				858847F087F816F59F3B5C18 /* UnityEngine.GameCenterModule_CodeGen.c in Sources */,
+				69BB43F38ABE73D478B4F6B2 /* UnityEngine.IMGUIModule.cpp in Sources */,
+				7CE840FA9E5E578A23285260 /* UnityEngine.IMGUIModule_CodeGen.c in Sources */,
+				16D2409895AA42BC7C9AB8B8 /* UnityEngine.InputLegacyModule.cpp in Sources */,
+				099B42D5B1A4ACE075FAA06A /* UnityEngine.InputLegacyModule_CodeGen.c in Sources */,
+				E9624462AF92EEFD001B95BA /* UnityEngine.JSONSerializeModule.cpp in Sources */,
+				767F43EAA8CE7008783CD509 /* UnityEngine.JSONSerializeModule_CodeGen.c in Sources */,
+				84B54FE3ADA707710A712B7C /* UnityEngine.SharedInternalsModule.cpp in Sources */,
+				233B44C7B6DD3D998D1BE9C5 /* UnityEngine.SharedInternalsModule_CodeGen.c in Sources */,
+				230147678BCF14D416FB6C7D /* UnityEngine.TextRenderingModule.cpp in Sources */,
+				450A45D5AF83C90BB526F3F6 /* UnityEngine.TextRenderingModule_CodeGen.c in Sources */,
+				A3B249DD8B393512EA071973 /* UnityEngine.cpp in Sources */,
+				C1D04D7395F03F38AA979467 /* UnityEngine_CodeGen.c in Sources */,
+				12EB4ADEB7D9EC6F24DCFBC8 /* UnityNative.Toasts.Example.cpp in Sources */,
+				3A0446CFBE8A138E92565DA1 /* UnityNative.Toasts.Example_CodeGen.c in Sources */,
+				BDF54E77A979B24089A319F1 /* UnityNative.Toasts.cpp in Sources */,
+				DF8A41B6A573DF35AB195562 /* UnityNative.Toasts_CodeGen.c in Sources */,
+				8B054B0AB0E0607F4696DC92 /* UnresolvedVirtualCallStubs.cpp in Sources */,
+				D6894DAAA2700253DB0C9861 /* mscorlib.cpp in Sources */,
+				608741C19B5DDBD6C5298006 /* mscorlib1.cpp in Sources */,
+				50B747BBB6422A3D34B5A1CC /* mscorlib10.cpp in Sources */,
+				EA29410185370924B1F7C3D5 /* mscorlib11.cpp in Sources */,
+				B6804F4C945F9CBAEA4556EC /* mscorlib12.cpp in Sources */,
+				F8604A9981499EF60049BA71 /* mscorlib13.cpp in Sources */,
+				F54D4377AAC101C67FE16E5A /* mscorlib14.cpp in Sources */,
+				20F849479A4BF958A2139CAE /* mscorlib15.cpp in Sources */,
+				080F4E5BB33430CDA78328BF /* mscorlib2.cpp in Sources */,
+				B34A4ABAA5B335C8AB985922 /* mscorlib3.cpp in Sources */,
+				A20E4F38912615D116688D04 /* mscorlib4.cpp in Sources */,
+				3F764402AC8F9C37C185EA43 /* mscorlib5.cpp in Sources */,
+				1F654A4CAF46C6896B19C6CF /* mscorlib6.cpp in Sources */,
+				AE484DB3B3A11E0F7126D636 /* mscorlib7.cpp in Sources */,
+				3A244DEF89F7D312356160BB /* mscorlib8.cpp in Sources */,
+				7E964A0DA994E072B2BC8F9B /* mscorlib9.cpp in Sources */,
+				981E4B4AB89BFBD19D9C4E68 /* mscorlib_CodeGen.c in Sources */,
+				9A1B42DE8B9E19486E1572EB /* UnityNative_Toasts.mm in Sources */,
+				894843D2A80FC014F3E3EAAC /* UnityNativeDialogs.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
