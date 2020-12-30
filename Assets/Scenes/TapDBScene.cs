@@ -62,12 +62,12 @@ public class TapDBScene : MonoBehaviour
 
         if (GUI.Button(new Rect(680, 540, 160, 100), "充值", style))
         {
-            TDSTapDB.OnCharge("12345", "890", "3", "eur", "paypal");
+            TDSTapDB.OnCharge("12345", "890", 1, "eur", "paypal");
         }
 
         if (GUI.Button(new Rect(680, 670, 160, 100), "事件", style))
         {
-            TDSTapDB.OnEvent("eventCode", "properies");
+            TDSTapDB.OnEvent("eventCode", "{\"event\":\"123\"}");
         }
 
 

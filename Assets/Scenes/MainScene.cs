@@ -108,8 +108,8 @@ public class MainScene : MonoBehaviour, LoginCallback
                     UnityNativeToastsHelper.ShowShortText("当前未登录");
                 }
                 else {
-                    string userId = profile.openid;
-                    TDSTapDB.SetUser(userId);
+                    string userId = profile.openid + "-user";
+                    TDSTapDB.SetUser(userId, "TapTap");
                     UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(3);
                 }
             });            
