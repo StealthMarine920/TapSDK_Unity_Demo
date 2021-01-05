@@ -7,11 +7,11 @@
       "dependencies": {}
     },
     "com.tds.sdk": {
-      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.1.4",
+      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.1.8",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "ac86c2dfb062affd7cb7ae09ac4016ff18e9d459"
+      "hash": "95336d7e80ef9cd756fb0ef1630febe7b1ddb6a4"
     },
     "com.unity.collab-proxy": {
       "version": "1.3.9",

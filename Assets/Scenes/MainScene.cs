@@ -8,26 +8,30 @@ using TapSDK;
 
 public class MainScene : MonoBehaviour, LoginCallback
 {
+    public static bool isInit = false;
     void Start()
     {
-        //初始化
-        TDSCore.Init("");
+        if (!isInit) {
+            //初始化
+            TDSCore.Init("");
 
-        //注册回调
-        TDSLogin.RegisterLoginCallback(this);
+            //注册回调
+            TDSLogin.RegisterLoginCallback(this);
 
-        //开启tapDB
-        TDSCore.EnableTapDB("gameVersion", "gamenChannel");
+            //开启tapDB
+            TDSCore.EnableTapDB("gameVersion", "gamenChannel");
+        }
 
+        isInit = true;
         setDBUser();
     }
 
     // Update is called once per frame
     void Update()
-    {
-       
+    {               
+        
     }
-
+       
     private bool isFlag = false;
 
     public void LoginSuccess(TDSAccessToken accessToken)
@@ -86,7 +90,7 @@ public class MainScene : MonoBehaviour, LoginCallback
         TDSLogin.GetCurrentProfile((profile) => {
             if (profile != null) {
                 string userId = profile.openid + "-user"; 
-                TDSTapDB.SetUser(userId);
+                TDSTapDB.SetUser(userId, "taptap");
             }
         });
     }
