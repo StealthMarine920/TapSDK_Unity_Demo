@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{35211096-F7DA-310B-6806-DA6E884153B4}|">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDSCore" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" selected="True" />
+            </Node>
+            <Node name="Packages" expanded="True">
+              <Node name="TapSDKDialog" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TDSCore PreferredExecutionTarget="763b9fe5-2360-4141-87ae-2dcd5eaf2738" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -7,11 +7,23 @@
       "dependencies": {}
     },
     "com.tds.sdk": {
-      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.1.8",
+      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.1.9-rnd",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "95336d7e80ef9cd756fb0ef1630febe7b1ddb6a4"
+      "hash": "3587ee9b0df7407b90e3095d3f3c9668ef84096e"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
@@ -85,6 +97,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
     },
     "com.unitynative.toasts": {
       "version": "https://github.com/NicholasSheehan/Unity-Native-Toasts.git",

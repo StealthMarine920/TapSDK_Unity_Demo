@@ -9,6 +9,7 @@ using TapSDK;
 public class MainScene : MonoBehaviour, LoginCallback
 {
     public static bool isInit = false;
+    static int mainThreadId;
     void Start()
     {
         if (!isInit) {
@@ -20,16 +21,15 @@ public class MainScene : MonoBehaviour, LoginCallback
 
             //开启tapDB
             TDSCore.EnableTapDB("gameVersion", "gamenChannel");
+            setDBUser();
         }
-
         isInit = true;
-        setDBUser();
     }
 
     // Update is called once per frame
     void Update()
-    {               
-        
+    {
+      
     }
        
     private bool isFlag = false;
@@ -90,7 +90,7 @@ public class MainScene : MonoBehaviour, LoginCallback
         TDSLogin.GetCurrentProfile((profile) => {
             if (profile != null) {
                 string userId = profile.openid + "-user"; 
-                TDSTapDB.SetUser(userId, "taptap");
+                TDSTapDB.SetUser(userId, "TapTap");
             }
         });
     }
@@ -112,13 +112,16 @@ public class MainScene : MonoBehaviour, LoginCallback
 
         if (GUI.Button(new Rect(60, 450, 180, 100), "TapDB", style))
         {
+            Loom.Initialize();
             TDSLogin.GetCurrentProfile((profile) => {
                 if (profile == null)
                 {
                     UnityNativeToastsHelper.ShowShortText("当前未登录");
                 }
-                else {
-                    UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(3);
+                else {                                   
+                    Loom.QueueOnMainThread((param)=> {
+                        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+                    }, null);                    
                 }
             });            
         }

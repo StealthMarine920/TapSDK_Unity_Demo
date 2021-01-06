@@ -46,12 +46,12 @@ public class TapDBScene : MonoBehaviour
 
         if (GUI.Button(new Rect(680, 150, 160, 100), "服务器", style))
         {
-            TDSTapDB.SetServer(serverName);
+           TDSTapDB.SetServer(serverName);
         }
 
         if (GUI.Button(new Rect(680, 280, 160, 100), "用户名", style))
         {
-            TDSTapDB.SetName(userName);
+           TDSTapDB.SetName(userName);
         }
 
         if (GUI.Button(new Rect(680, 410, 160, 100), "等级", style))
