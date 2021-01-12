@@ -9,7 +9,7 @@ using TapSDK;
 public class MainScene : MonoBehaviour, LoginCallback
 {
     public static bool isInit = false;
-    static int mainThreadId;
+
     void Start()
     {
         if (!isInit) {

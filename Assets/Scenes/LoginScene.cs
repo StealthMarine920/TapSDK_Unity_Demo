@@ -27,9 +27,8 @@ public class LoginScene : MonoBehaviour
 
         if (GUI.Button(new Rect(60, 150, 180, 100), "登录", style))
         {
-            TDSLogin.GetCurrentAccessToken((accessToken) =>
-            {
-                if (accessToken == null)
+            TDSLogin.GetCurrentProfile((profile) => {
+                if (profile == null)
                 {
                     string[] permissions = { "public_profile" };
                     TDSLogin.StartLogin(permissions);
@@ -43,11 +42,10 @@ public class LoginScene : MonoBehaviour
 
         if (GUI.Button(new Rect(60, 300, 180, 100), "退出登录", style))
         {
-            TDSLogin.GetCurrentAccessToken((accessToken) =>
-            {                
-                if (accessToken == null)
+            TDSLogin.GetCurrentProfile((profile) => {
+                if (profile == null)
                 {
-                    UnityNativeToastsHelper.ShowShortText("当前没有登录");
+                    UnityNativeToastsHelper.ShowShortText("当前未登录");
                 }
                 else
                 {
@@ -59,18 +57,15 @@ public class LoginScene : MonoBehaviour
 
         if (GUI.Button(new Rect(60, 450, 180, 100), "用户信息", style))
         {
-            TDSLogin.GetCurrentAccessToken((accessToken) =>
-            {
-                if (accessToken == null)
+            TDSLogin.GetCurrentProfile((profile) => {
+                if (profile == null)
                 {
-                    UnityNativeToastsHelper.ShowShortText("当前没有登录");
+                    UnityNativeToastsHelper.ShowShortText("当前未登录");
                 }
                 else
                 {
-                    TDSLogin.FetchProfileForCurrentAccessToken((profile) => {
-                        string str = profile.ToJSON();
-                        UnityNativeToastsHelper.ShowShortText(str);
-                    },null);
+                    string str = profile.ToJSON();
+                    UnityNativeToastsHelper.ShowShortText(str);
                 }
             });
         }

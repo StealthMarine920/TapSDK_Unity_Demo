@@ -7,11 +7,11 @@
       "dependencies": {}
     },
     "com.tds.sdk": {
-      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.1.9-rnd",
+      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.2.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "3587ee9b0df7407b90e3095d3f3c9668ef84096e"
+      "hash": "6d4118af22f3dc418b98c339545da1421fc9d855"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
