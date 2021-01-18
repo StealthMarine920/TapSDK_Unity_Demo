@@ -70,7 +70,25 @@ public class LoginScene : MonoBehaviour
             });
         }
 
-        if (GUI.Button(new Rect(60, 600, 180, 100), "返回", style))
+        if (GUI.Button(new Rect(60, 600, 260, 100), "远程用户信息", style))
+        {
+
+            TDSLogin.FetchProfileForCurrentAccessToken((profile) => {
+                if (profile == null)
+                {
+                    UnityNativeToastsHelper.ShowShortText("当前未登录");
+                }
+                else
+                {
+                    string str = profile.ToJSON();
+                    UnityNativeToastsHelper.ShowShortText(str);
+                }
+            }, (error) => {
+                UnityNativeToastsHelper.ShowShortText(error);
+            }) ;
+        }
+
+        if (GUI.Button(new Rect(60, 750, 180, 100), "返回", style))
         {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
         }

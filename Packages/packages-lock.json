@@ -7,11 +7,11 @@
       "dependencies": {}
     },
     "com.tds.sdk": {
-      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.2.1",
+      "version": "https://github.com/xindong/TAPSDK_UPM.git#0.2.4",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "6d4118af22f3dc418b98c339545da1421fc9d855"
+      "hash": "fba14ff65707f97909e134cfe69c740b062589ba"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -106,11 +106,10 @@
       "url": "https://packages.unity.cn"
     },
     "com.unitynative.toasts": {
-      "version": "https://github.com/NicholasSheehan/Unity-Native-Toasts.git",
+      "version": "file:../TapSDKToast",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "0d4c9883139ead2dc083fd636336eb3a4ae4b53b"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
