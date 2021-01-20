@@ -14,7 +14,7 @@ public class MainScene : MonoBehaviour, LoginCallback
     {
         if (!isInit) {
             //初始化
-            TDSCore.Init("");
+            TDSCore.Init("FwFdCIr6u71WQDQwQN");
 
             //注册回调
             TDSLogin.RegisterLoginCallback(this);
